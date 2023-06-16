@@ -2,8 +2,9 @@
     <channel>
         <title>CodeMatrix</title>
         <link>http://example.org/</link>
-        <description>This is my cool site</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language>
+        <description>Code Matrix - Building the Future, One Line at a Time</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>suyog224356@gmail.com (Suyog Prasai)</managingEditor>
+            <webMaster>suyog224356@gmail.com (Suyog Prasai)</webMaster>
             <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
         </channel>
 </rss>

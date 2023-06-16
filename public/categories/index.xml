@@ -3,5 +3,6 @@
         <title>Categories - Category - CodeMatrix</title>
         <link>http://example.org/categories/</link>
         <description>Categories - Category - CodeMatrix</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="http://example.org/categories/" rel="self" type="application/rss+xml" /></channel>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>suyog224356@gmail.com (Suyog Prasai)</managingEditor>
+            <webMaster>suyog224356@gmail.com (Suyog Prasai)</webMaster><atom:link href="http://example.org/categories/" rel="self" type="application/rss+xml" /></channel>
 </rss>
