@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on CodeMatrix</title>
+    <link>http://example.org/categories/blog/</link>
+    <description>Recent content in Blog on CodeMatrix</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>suyog224356@gmail.com (Suyog Prasai)</managingEditor>
+    <webMaster>suyog224356@gmail.com (Suyog Prasai)</webMaster><atom:link href="http://example.org/categories/blog/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

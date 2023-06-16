@@ -6,6 +6,8 @@ theme = "LoveIt"
 # website title
 title = "CodeMatrix"
 
+# determines default content language ["en", "zh-cn", "fr", "pl", ...]
+defaultContentLanguage = "en"
 # language code ["en", "zh-CN", "fr", "pl", ...]
 languageCode = "en"
 # language name ["English", "简体中文", "Français", "Polski", ...]
@@ -203,7 +205,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       # URL of avatar shown in home page
       avatarURL = "/images/avatar.png"
       #  title shown in home page (HTML format is supported)
-      title = ""
+      title = "Code Matrix"
       # subtitle shown in home page (HTML format is supported)
       subtitle = "Exploring the Depths of Digital Alchemy"
       # whether to use typeit animation for subtitle
