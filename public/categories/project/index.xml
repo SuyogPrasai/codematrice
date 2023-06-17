@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Project on CodeMatrix</title>
-    <link>http://example.org/categories/project/</link>
+    <link>https://codematrix.netlify.com/categories/project/</link>
     <description>Recent content in Project on CodeMatrix</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>suyog224356@gmail.com (Suyog Prasai)</managingEditor>
-    <webMaster>suyog224356@gmail.com (Suyog Prasai)</webMaster><atom:link href="http://example.org/categories/project/index.xml" rel="self" type="application/rss+xml" />
+    <webMaster>suyog224356@gmail.com (Suyog Prasai)</webMaster><atom:link href="https://codematrix.netlify.com/categories/project/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

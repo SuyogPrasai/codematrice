@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Tags - Tag - CodeMatrix</title>
-        <link>http://example.org/tags/</link>
+        <link>https://codematrix.netlify.com/tags/</link>
         <description>Tags - Tag - CodeMatrix</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>suyog224356@gmail.com (Suyog Prasai)</managingEditor>
-            <webMaster>suyog224356@gmail.com (Suyog Prasai)</webMaster><atom:link href="http://example.org/tags/" rel="self" type="application/rss+xml" /></channel>
+            <webMaster>suyog224356@gmail.com (Suyog Prasai)</webMaster><atom:link href="https://codematrix.netlify.com/tags/" rel="self" type="application/rss+xml" /></channel>
 </rss>

@@ -1,10 +1,10 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>CodeMatrix</title>
-        <link>http://example.org/</link>
+        <link>https://codematrix.netlify.com/</link>
         <description>Code Matrix - Building the Future, One Line at a Time</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>suyog224356@gmail.com (Suyog Prasai)</managingEditor>
             <webMaster>suyog224356@gmail.com (Suyog Prasai)</webMaster>
-            <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+            <atom:link href="https://codematrix.netlify.com/index.xml" rel="self" type="application/rss+xml" />
         </channel>
 </rss>
