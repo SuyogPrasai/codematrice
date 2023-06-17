@@ -159,7 +159,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   #  App icon config
   [params.app]
     # optional site title override for the app when added to an iOS home screen or Android launcher
-    title = "My cool site"
+    title = "Code Matrix"
     # whether to omit favicon resource links
     noFavicon = false
     # modern SVG favicon to use in place of older style .png and .ico files
@@ -452,9 +452,9 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         enable = false
       #  utterances comment config
       [params.page.comment.utterances]
-        enable = false
+        enable = true
         # owner/repo
-        repo = ""
+        repo = "suyogprasai/codematrix"
         issueTerm = "pathname"
         label = ""
         lightTheme = "github-light"
