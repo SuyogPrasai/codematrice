@@ -227,9 +227,9 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   [params.social]
     GitHub = "suyogprasai"
     Linkedin = ""
-    Twitter = "xxxx"
+    Twitter = "@suyog_prasai"
     Instagram = "xxxx"
-    Facebook = "xxxx"
+    Facebook = "suyog.pras"
     Telegram = "xxxx"
     Medium = ""
     Gitlab = ""
