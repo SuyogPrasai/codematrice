@@ -4,7 +4,7 @@
         <link>https://codematrix.netlify.com/</link>
         <description>Code Matrix - Building the Future, One Line at a Time</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>suyog224356@gmail.com (Suyog Prasai)</managingEditor>
-            <webMaster>suyog224356@gmail.com (Suyog Prasai)</webMaster><lastBuildDate>Sat, 17 Jun 2023 10:52:18 &#43;0545</lastBuildDate>
+            <webMaster>suyog224356@gmail.com (Suyog Prasai)</webMaster><lastBuildDate>Mon, 19 Jun 2023 14:28:16 &#43;0545</lastBuildDate>
             <atom:link href="https://codematrix.netlify.com/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title> Hello World: Introducing Code Matrix and the Exciting World of Coding</title>
@@ -15,6 +15,16 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="/featured.jpg" referrerpolicy="no-referrer">
             </div><p>Welcome to Code Matrix, your gateway to the thrilling world of coding! In this inaugural blog post, I&rsquo;m thrilled to introduce you to my platform and the amazing journey that awaits you as you dive into the realm of programming.</p>]]></description>
+</item>
+<item>
+    <title>Windows Gets a Linux Makeover: Install Ubuntu WSL Today!</title>
+    <link>https://codematrix.netlify.com/ubuntuwsl/</link>
+    <pubDate>Mon, 19 Jun 2023 14:28:16 &#43;0545</pubDate>
+    <author>Suyog Prasai</author>
+    <guid>https://codematrix.netlify.com/ubuntuwsl/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/featured.jpg" referrerpolicy="no-referrer">
+            </div><p>In this post, I will be showcasing the installation of <strong>windows linux subsystem (WSL)</strong> and <strong>Ubuntu</strong> in windows. This is a guide for installing Ubuntu for optimal performance.</p>]]></description>
 </item>
 </channel>
 </rss>

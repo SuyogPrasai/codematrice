@@ -1,63 +1,5 @@
----
-title: "Windows Gets a Linux Makeover: Install Ubuntu WSL Today!"
-subtitle: ""
-date: 2023-06-19T14:28:16+05:45
-lastmod: 2023-06-19T14:28:16+05:45
-draft: false
-author: "Suyog Prasai"
-authorLink: ""
-description: "In this blog I'll be showcasing how to make an installtion of windows subsystem for linux (WSL) and ubuntu "
-license: ""
-images: ["install.jpg"]
+# Windows Gets a Linux Makeover: Install Ubuntu WSL Today!
 
-tags: ["Blog", "how-to-do", "linux"]
-categories: []
-
-featuredImage: "featured.jpg"
-featuredImagePreview: ""
-
-hiddenFromHomePage: false
-hiddenFromSearch: false
-twemoji: false
-lightgallery: true
-ruby: true
-fraction: true
-fontawesome: true
-linkToMarkdown: false
-rssFullText: false
-
-toc:
-  enable: true
-  auto: true
-code:
-  copy: true
-  maxShownLines: 50
-math:
-  enable: false
-  # ...
-mapbox:
-  # ...
-share:
-  enable: true
-  # ...
-comment:
-  enable: true
-  # ...
-library:
-  css:
-    # someCSS = "some.css"
-    # located in "assets/"
-    # Or
-    # someCSS = "https://cdn.example.com/some.css"
-  js:
-    # someJS = "some.js"
-    # located in "assets/"
-    # Or
-    # someJS = "https://cdn.example.com/some.js"
-seo:
-  images: []
-  # ...
----
 In this post, I will be showcasing the installation of **windows linux subsystem (WSL)** and **Ubuntu** in windows. This is a guide for installing Ubuntu for optimal performance.
 <!--more-->
 
@@ -138,3 +80,4 @@ WSL 2 is better than WSL because it utilizes a full Linux kernel within a lightw
 #### Start using WSL:
    - Once the setup is complete, you can use WSL by launching the Linux distribution you installed. It will open a terminal window running the Linux environment.
    - You can run Linux commands, install software packages, and perform various tasks within the WSL environment.
+
