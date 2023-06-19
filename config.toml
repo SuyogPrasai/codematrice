@@ -228,7 +228,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     GitHub = "suyogprasai"
     Linkedin = ""
     Twitter = "@suyog_prasai"
-    Instagram = "xxxx"
+    Instagram = "suyog_prasai"
     Facebook = "suyog.pras"
     Telegram = "xxxx"
     Medium = ""
@@ -318,7 +318,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     #  whether to enable the fontawesome extended syntax
     fontawesome = true
     # whether to show link to Raw Markdown content of the content
-    linkToMarkdown = true
+    linkToMarkdown = false
     #  whether to show the full text content in RSS
     rssFullText = false
     #  Table of the contents config
