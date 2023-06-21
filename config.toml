@@ -510,7 +510,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
   # Site verification code config for Google/Bing/Yandex/Pinterest/Baidu
   [params.verification]
-    google = ""
+    google = "googlec6b1960c8815b97b.html"
     bing = ""
     yandex = ""
     pinterest = ""
@@ -528,7 +528,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     enable = true
     # Google Analytics
     [params.analytics.google]
-      id = ""
+      id = "GTM-KZFLKS4 "
       # whether to anonymize IP
       anonymizeIP = true
     # Fathom Analytics
