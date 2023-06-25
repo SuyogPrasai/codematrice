@@ -1,0 +1,18 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Windows - Tag - CodeMatrix</title>
+        <link>https://codematrix.netlify.com/tags/windows/</link>
+        <description>Windows - Tag - CodeMatrix</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>suyog224356@gmail.com (Suyog Prasai)</managingEditor>
+            <webMaster>suyog224356@gmail.com (Suyog Prasai)</webMaster><lastBuildDate>Sun, 25 Jun 2023 07:55:52 &#43;0545</lastBuildDate><atom:link href="https://codematrix.netlify.com/tags/windows/" rel="self" type="application/rss+xml" /><item>
+    <title>Transforming Ubuntu to the Next Level</title>
+    <link>https://codematrix.netlify.com/transforming-ubuntu-to-the-next-level/</link>
+    <pubDate>Sun, 25 Jun 2023 07:55:52 &#43;0545</pubDate>
+    <author>Suyog Prasai</author>
+    <guid>https://codematrix.netlify.com/transforming-ubuntu-to-the-next-level/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/featured_image.png" referrerpolicy="no-referrer">
+            </div><p>In this post, I will be continuing the installation of Ubuntu WSL on Windows. I will be now transforming it to the next level. The software that I will be using will be Windows Terminal, Ubuntu, and Fish Shell.</p>]]></description>
+</item>
+</channel>
+</rss>

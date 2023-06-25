@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Transforming Ubuntu to the Next Level - CodeMatrix</title><meta name="Description" content="In this post, I will be showing you how to improve the functionality and appearance of Ubuntu Wsl to the &#39;Next Level&#39;. I wll be using windows terminal, starship and fish for my configuration."><meta property="og:title" content="Transforming Ubuntu to the Next Level" />
+<meta property="og:description" content="In this post, I will be showing you how to improve the functionality and appearance of Ubuntu Wsl to the &#39;Next Level&#39;. I wll be using windows terminal, starship and fish for my configuration." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://codematrix.netlify.com/transforming-ubuntu-to-the-next-level/" /><meta property="og:image" content="https://codematrix.netlify.com/featured_image.png" /><meta property="og:image" content="https://codematrix.netlify.com/fonts_selection.png" /><meta property="og:image" content="https://codematrix.netlify.com/nerd_font_installation.png" /><meta property="og:image" content="https://codematrix.netlify.com/profile_setting.png" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-06-25T07:55:52+05:45" />
+<meta property="article:modified_time" content="2023-06-25T09:26:31+05:45" /><meta property="og:site_name" content="CodeMatrix" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://codematrix.netlify.com/featured_image.png"/>
+
+<meta name="twitter:title" content="Transforming Ubuntu to the Next Level"/>
+<meta name="twitter:description" content="In this post, I will be showing you how to improve the functionality and appearance of Ubuntu Wsl to the &#39;Next Level&#39;. I wll be using windows terminal, starship and fish for my configuration."/>
+<meta name="application-name" content="Code Matrix">
+<meta name="apple-mobile-web-app-title" content="Code Matrix"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://codematrix.netlify.com/transforming-ubuntu-to-the-next-level/" /><link rel="prev" href="https://codematrix.netlify.com/ubuntuwsl/" /><link rel="next" href="https://codematrix.netlify.com/hello-world/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><meta name="google-site-verification" content="googlec6b1960c8815b97b.html" /><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Transforming Ubuntu to the Next Level",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/codematrix.netlify.com\/transforming-ubuntu-to-the-next-level\/"
+        },"genre": "posts","keywords": "Blog, how-to-do, Windows","wordcount":  691 ,
+        "url": "https:\/\/codematrix.netlify.com\/transforming-ubuntu-to-the-next-level\/","datePublished": "2023-06-25T07:55:52+05:45","dateModified": "2023-06-25T09:26:31+05:45","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Suyog Prasai"
+            },"description": "In this post, I will be showing you how to improve the functionality and appearance of Ubuntu Wsl to the 'Next Level'. I wll be using windows terminal, starship and fish for my configuration."
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="CodeMatrix"><span class="header-title-pre"><i class="fa-solid fa-code"></i></span>CodeMatrix</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><a class="menu-item" href="/about/"> About </a><a class="menu-item" href="https://github.com/suyogprasai" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw' aria-hidden='true'></i>  </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="CodeMatrix"><span class="header-title-pre"><i class="fa-solid fa-code"></i></span>CodeMatrix</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a class="menu-item" href="/about/" title="">About</a><a class="menu-item" href="https://github.com/suyogprasai" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw' aria-hidden='true'></i></a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Transforming Ubuntu to the Next Level</h1><h2 class="single-subtitle">Transforming Ubuntu to the Next Level</h2><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Suyog Prasai</a></span>&nbsp;<span class="post-category">included in <a href="/categories/blog/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Blog</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-06-25">2023-06-25</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;691 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;4 minutes&nbsp;</div>
+        </div><div class="featured-image"><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/transforming-ubuntu-to-the-next-level/featured_image.png"
+        data-srcset="/transforming-ubuntu-to-the-next-level/featured_image.png, /transforming-ubuntu-to-the-next-level/featured_image.png 1.5x, /transforming-ubuntu-to-the-next-level/featured_image.png 2x"
+        data-sizes="auto"
+        alt="/transforming-ubuntu-to-the-next-level/featured_image.png"
+        title="In this post, I will be showing you how to improve the functionality and appearance of Ubuntu Wsl to the &#39;Next Level&#39;. I wll be using windows terminal, starship and fish for my configuration." width="1091" height="675" /></div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#preparation">Preparation</a></li>
+        <li><a href="#windows-terminal">Windows terminal</a></li>
+        <li><a href="#downloading-and-installing-nerd-fonts">Downloading and Installing Nerd Fonts</a></li>
+        <li><a href="#installing-the-fish-shell">Installing the Fish shell</a></li>
+        <li><a href="#conclusion">Conclusion</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><p>In this post, I will be continuing the installation of Ubuntu WSL on Windows. I will be now transforming it to the next level. The software that I will be using will be Windows Terminal, Ubuntu, and Fish Shell.</p>
+<h3 id="preparation">Preparation</h3>
+<ul>
+<li>First of all, we must update the Ubuntu Package lists and also the software that&rsquo;s installed in the default installation. So, to do that run the following command:</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo apt update <span class="o">&amp;&amp;</span> sudo apt upgrade
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>It&rsquo;s going to take a while as we are updating the Ubuntu Package lists along with the all packages in the system.</li>
+</ul>
+<h3 id="windows-terminal">Windows terminal</h3>
+<p>In this installation, I will primarily use Windows Terminal to use WSL and any other kind of shell. It is my preferred choice for doing any shell work in Windows. Here are some reasons to run Windows Terminal:</p>
+<ul>
+<li>Windows Terminal is a highly customizable application for using any kind of shell in Windows</li>
+<li>It is quite fast and has a lot of features which make it very tempting.</li>
+<li>It has quite a good and simple configuration which makes it very easy to configure.</li>
+</ul>
+<h3 id="downloading-and-installing-nerd-fonts">Downloading and Installing Nerd Fonts</h3>
+<p>By default, Windows Terminal uses the Consolas font. It is good but it does not have the required graphics and options that are required in this installation. A really good option for all the graphics and symbols is using the <a href="https://nerdfonts.com" target="_blank" rel="noopener noreffer ">Nerd Fonts</a>.</p>
+<ul>
+<li>You can go to their <a href="https://nerdfonst.com/font-downloads" target="_blank" rel="noopener noreffer ">website</a> and download your favourite font. In this installation, I will be installing the <a href="https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/CodeNewRoman.zip" target="_blank" rel="noopener noreffer ">CodeNewRoman</a> Nerd Font. You can choose the font of choice.</li>
+</ul>
+<figure><a class="lightgallery" href="/transforming-ubuntu-to-the-next-level/nerd_font_installation.png" title="Nerd Font Installation" data-thumbnail="/transforming-ubuntu-to-the-next-level/nerd_font_installation.png" data-sub-html="<h2>Nerd Font Installation</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/transforming-ubuntu-to-the-next-level/nerd_font_installation.png"
+            data-srcset="/transforming-ubuntu-to-the-next-level/nerd_font_installation.png, /transforming-ubuntu-to-the-next-level/nerd_font_installation.png 1.5x, /transforming-ubuntu-to-the-next-level/nerd_font_installation.png 2x"
+            data-sizes="auto"
+            alt="Nerd Font Installation" width="1918" height="1034" />
+    </a><figcaption class="image-caption">Nerd Font Installation</figcaption>
+    </figure>
+<ul>
+<li>
+<p>You must install the font for <strong>all the users</strong> in your system to avoid problems. You must do it by extracting the zip file you downloaded using 7zip or Winrar. Then you must go inside the folder where you extracted the files. Then you must select all the font files.
+They are generally with extension &ldquo;.ttf&rdquo; or &ldquo;.otf&rdquo;. Then right-click and click on &ldquo;Install for all the users&rdquo;.</p>
+</li>
+<li>
+<p>After, Installing the font you must go to the settings of your Windows terminal. From there you must go into your appearance settings for your Ubuntu Profile.</p>
+</li>
+</ul>
+<figure><a class="lightgallery" href="/transforming-ubuntu-to-the-next-level/profile_setting.png" title="Settings Image" data-thumbnail="/transforming-ubuntu-to-the-next-level/profile_setting.png" data-sub-html="<h2>Settings</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/transforming-ubuntu-to-the-next-level/profile_setting.png"
+            data-srcset="/transforming-ubuntu-to-the-next-level/profile_setting.png, /transforming-ubuntu-to-the-next-level/profile_setting.png 1.5x, /transforming-ubuntu-to-the-next-level/profile_setting.png 2x"
+            data-sizes="auto"
+            alt="Settings Image" width="1091" height="683" />
+    </a><figcaption class="image-caption">Settings</figcaption>
+    </figure>
+<ul>
+<li>From the appearance settings, you must select the font that you just downloaded in the font selection menu.</li>
+</ul>
+<figure><a class="lightgallery" href="/transforming-ubuntu-to-the-next-level/fonts_selection.png" title="fonts_selection Image" data-thumbnail="/transforming-ubuntu-to-the-next-level/fonts_selection.png" data-sub-html="<h2>Fonts Selection</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/transforming-ubuntu-to-the-next-level/fonts_selection.png"
+            data-srcset="/transforming-ubuntu-to-the-next-level/fonts_selection.png, /transforming-ubuntu-to-the-next-level/fonts_selection.png 1.5x, /transforming-ubuntu-to-the-next-level/fonts_selection.png 2x"
+            data-sizes="auto"
+            alt="fonts_selection Image" width="1087" height="681" />
+    </a><figcaption class="image-caption">Fonts Selection</figcaption>
+    </figure>
+<ul>
+<li>If all goes well then you have successfully installed the fonts required. Now you can proceed to the next steps. The fun part begins now.</li>
+</ul>
+<h3 id="installing-the-fish-shell">Installing the Fish shell</h3>
+<p>Fish Shell is a really powerful shell that has a lot of inbuilt features like auto-suggestion, syntax highlighting, and tab completions that work with no configuration required. So, I will be installing the fish shell.</p>
+<ul>
+<li>First of all, we must add the Fish repository in Ubuntu as it allows us to grab the latest version of Fish.</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo apt-add-repository ppa:fish-shell/release-3
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>Then, we must Install the fish shell.</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo apt install fish
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>
+<p>Then, we must make fish shell the default shell</p>
+<ul>
+<li>First, we have to know the path of the fish shells. Just run
+<code>which fish</code> and it should give you the path to the fish shell.</li>
+<li>Then, we have to make it our default shell</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo chsh -s &lt;path-to-fish-shell&gt;
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
+<li>
+<p>Then we have to install <a href="https://github.com/oh-my-fish/oh-my-fish" target="_blank" rel="noopener noreffer ">oh-my-fish</a>. Just run the following command to install it.</p>
+</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install <span class="p">|</span> fish
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>Now with oh-my-fish, you can choose various plugins and themes for your fish installation. Just type <code>omf theme</code> and it should give you a bunch of options.</li>
+</ul>
+<figure><a class="lightgallery" href="/transforming-ubuntu-to-the-next-level/omf_theme.png" title="/transforming-ubuntu-to-the-next-level/omf_theme.png" data-thumbnail="/transforming-ubuntu-to-the-next-level/omf_theme.png" data-sub-html="<h2>omf_theme</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/transforming-ubuntu-to-the-next-level/omf_theme.png"
+            data-srcset="/transforming-ubuntu-to-the-next-level/omf_theme.png, /transforming-ubuntu-to-the-next-level/omf_theme.png 1.5x, /transforming-ubuntu-to-the-next-level/omf_theme.png 2x"
+            data-sizes="auto"
+            alt="/transforming-ubuntu-to-the-next-level/omf_theme.png" width="1191" height="804" />
+    </a><figcaption class="image-caption">omf_theme</figcaption>
+    </figure>
+<ul>
+<li>For this installation, I will be installing the <code>sashimi</code> theme.</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">omf theme sashimi
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>
+<p>Then you have to configure the fish shell with various aliases and shortcuts. You can see how you can configure fish shell <a href="https://fishshell.com/docs/current/index.html" target="_blank" rel="noopener noreffer ">here</a></p>
+</li>
+<li>
+<p>You can also see my configuration on my <a href="https://github.com/SuyogPrasai/dotfiles/blob/master/fish/.config/fish/config.fish" target="_blank" rel="noopener noreffer ">GitHub</a></p>
+</li>
+</ul>
+<h3 id="conclusion">Conclusion</h3>
+<p>In this post, we have continued the installation of Ubuntu WSL on Windows, taking it to the next level. By utilizing Windows Terminal, Nerd Fonts, and the Fish Shell, we have enhanced the shell experience. With a highly customizable and feature-rich environment, we have created a seamless and visually appealing workspace. By following the outlined steps, readers can transform their Ubuntu WSL installation, unlocking greater productivity and convenience.</p></div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2023-06-25</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://codematrix.netlify.com/transforming-ubuntu-to-the-next-level/" data-title="Transforming Ubuntu to the Next Level" data-via="@suyog_prasai" data-hashtags="Blog,how-to-do,Windows"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://codematrix.netlify.com/transforming-ubuntu-to-the-next-level/" data-hashtag="Blog"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="https://codematrix.netlify.com/transforming-ubuntu-to-the-next-level/" data-title="Transforming Ubuntu to the Next Level"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Reddit" data-sharer="reddit" data-url="https://codematrix.netlify.com/transforming-ubuntu-to-the-next-level/"><i class="fab fa-reddit fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="https://codematrix.netlify.com/transforming-ubuntu-to-the-next-level/" data-title="Transforming Ubuntu to the Next Level"><i data-svg-src="/lib/simple-icons/icons/line.min.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://codematrix.netlify.com/transforming-ubuntu-to-the-next-level/" data-title="Transforming Ubuntu to the Next Level" data-image="featured_image.png"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/blog/">Blog</a>,&nbsp;<a href="/tags/how-to-do/">how-to-do</a>,&nbsp;<a href="/tags/windows/">Windows</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/ubuntuwsl/" class="prev" rel="prev" title="Windows Gets a Linux Makeover: Install Ubuntu WSL Today!"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Windows Gets a Linux Makeover: Install Ubuntu WSL Today!</a>
+            <a href="/hello-world/" class="next" rel="next" title=" Hello World: Introducing Code Matrix and the Exciting World of Coding"> Hello World: Introducing Code Matrix and the Exciting World of Coding<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+</div>
+<div id="comments"><div id="utterances" class="comment"></div><noscript>
+                Please enable JavaScript to view the comments powered by <a href="https://utteranc.es/">utterances</a>.
+            </noscript></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">Suyog Prasai</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/lightgallery/css/lightgallery-bundle.min.css"><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/algoliasearch/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lightgallery.min.js"></script><script type="text/javascript" src="/lib/lightgallery/plugins/thumbnail/lg-thumbnail.min.js"></script><script type="text/javascript" src="/lib/lightgallery/plugins/zoom/lg-zoom.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/cookieconsent/cookieconsent.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{"utterances":{"darkTheme":"github-dark","issueTerm":"pathname","label":"","lightTheme":"github-light","repo":"suyogprasai/codematrix"}},"cookieconsent":{"content":{"dismiss":"Got it!","link":"Learn more","message":"This website uses Cookies to improve your experience."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"lightgallery":true,"search":{"algoliaAppID":"EOEXCVYQPY","algoliaIndex":"CodeMatrixSearch","algoliaSearchKey":"dd95774775a6bbdb8bc51846c97fec1c","highlightTag":"em","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"algolia"}};</script><script type="text/javascript" src="/js/theme.min.js"></script><script type="text/javascript">
+            window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
+            gtag('config', 'G-TRQMY7Z92P', { 'anonymize_ip': true });
+        </script><script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=G-TRQMY7Z92P" async></script></body>
+</html>

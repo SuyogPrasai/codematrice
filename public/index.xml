@@ -4,7 +4,7 @@
         <link>https://codematrix.netlify.com/</link>
         <description>Code Matrix - Building the Future, One Line at a Time</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>suyog224356@gmail.com (Suyog Prasai)</managingEditor>
-            <webMaster>suyog224356@gmail.com (Suyog Prasai)</webMaster><lastBuildDate>Mon, 19 Jun 2023 14:28:16 &#43;0545</lastBuildDate>
+            <webMaster>suyog224356@gmail.com (Suyog Prasai)</webMaster><lastBuildDate>Sun, 25 Jun 2023 07:55:52 &#43;0545</lastBuildDate>
             <atom:link href="https://codematrix.netlify.com/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title> Hello World: Introducing Code Matrix and the Exciting World of Coding</title>
@@ -15,6 +15,16 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="/featured.jpg" referrerpolicy="no-referrer">
             </div><p>Welcome to Code Matrix, your gateway to the thrilling world of coding! In this inaugural blog post, I&rsquo;m thrilled to introduce you to my platform and the amazing journey that awaits you as you dive into the realm of programming.</p>]]></description>
+</item>
+<item>
+    <title>Transforming Ubuntu to the Next Level</title>
+    <link>https://codematrix.netlify.com/transforming-ubuntu-to-the-next-level/</link>
+    <pubDate>Sun, 25 Jun 2023 07:55:52 &#43;0545</pubDate>
+    <author>Suyog Prasai</author>
+    <guid>https://codematrix.netlify.com/transforming-ubuntu-to-the-next-level/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/featured_image.png" referrerpolicy="no-referrer">
+            </div><p>In this post, I will be continuing the installation of Ubuntu WSL on Windows. I will be now transforming it to the next level. The software that I will be using will be Windows Terminal, Ubuntu, and Fish Shell.</p>]]></description>
 </item>
 <item>
     <title>Windows Gets a Linux Makeover: Install Ubuntu WSL Today!</title>

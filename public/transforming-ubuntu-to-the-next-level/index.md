@@ -1,68 +1,5 @@
----
-title: "Transforming Ubuntu to the Next Level"
-subtitle: "Transforming Ubuntu to the Next Level"
-date: 2023-06-25T07:55:52+05:45
-lastmod: 
-draft: false 
-author: "Suyog Prasai"
-authorLink: ""
-description: "In this post, I will be showing you how to improve the functionality and appearance of Ubuntu Wsl to the 'Next Level'. I wll be using windows terminal, starship and fish for my configuration."
-license: ""
-images: [
-    "featured_image.png",
-    "fonts_selection.png", 
-    "nerd_font_installation.png",
-    "profile_setting.png"
-]
+# Transforming Ubuntu to the Next Level
 
-tags: ["Blog", "how-to-do", "Windows"]
-categories: ["Blog"]
-
-featuredImage: "featured_image.png"
-featuredImagePreview: ""
-
-hiddenFromHomePage: false
-hiddenFromSearch: false
-twemoji: false
-lightgallery: true
-ruby: true
-fraction: true
-fontawesome: true
-linkToMarkdown: false
-rssFullText: false
-
-toc:
-  enable: true
-  auto: true
-code:
-  copy: true
-  maxShownLines: 50
-math:
-  enable: false
-  # ...
-mapbox:
-  # ...
-share:
-  enable: true
-  # ...
-comment:
-  enable: true
-  # ...
-library:
-  css:
-    # someCSS = "some.css"
-    # located in "assets/"
-    # Or
-    # someCSS = "https://cdn.example.com/some.css"
-  js:
-    # someJS = "some.js"
-    # located in "assets/"
-    # Or
-    # someJS = "https://cdn.example.com/some.js"
-seo:
-  images: []
-  # ...
----
 In this post, I will be continuing the installation of Ubuntu WSL on Windows. I will be now transforming it to the next level. The software that I will be using will be Windows Terminal, Ubuntu, and Fish Shell.
 <!--more-->
 
@@ -144,3 +81,4 @@ omf theme sashimi
 
 ### Conclusion 
 In this post, we have continued the installation of Ubuntu WSL on Windows, taking it to the next level. By utilizing Windows Terminal, Nerd Fonts, and the Fish Shell, we have enhanced the shell experience. With a highly customizable and feature-rich environment, we have created a seamless and visually appealing workspace. By following the outlined steps, readers can transform their Ubuntu WSL installation, unlocking greater productivity and convenience.
+
