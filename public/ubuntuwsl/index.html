@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Windows Gets a Linux Makeover: Install Ubuntu WSL Today! - CodeMatrix</title><meta name="Description" content="In this blog I&#39;ll be showcasing how to make an installtion of windows subsystem for linux (WSL) and ubuntu "><meta property="og:title" content="Windows Gets a Linux Makeover: Install Ubuntu WSL Today!" />
+<meta property="og:description" content="In this blog I&#39;ll be showcasing how to make an installtion of windows subsystem for linux (WSL) and ubuntu " />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://codematrix.netlify.com/ubuntuwsl/" /><meta property="og:image" content="https://codematrix.netlify.com/install.jpg" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-06-19T14:28:16+05:45" />
+<meta property="article:modified_time" content="2023-06-19T18:25:08+05:45" /><meta property="og:site_name" content="CodeMatrix" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://codematrix.netlify.com/install.jpg"/>
+
+<meta name="twitter:title" content="Windows Gets a Linux Makeover: Install Ubuntu WSL Today!"/>
+<meta name="twitter:description" content="In this blog I&#39;ll be showcasing how to make an installtion of windows subsystem for linux (WSL) and ubuntu "/>
+<meta name="application-name" content="Code Matrix">
+<meta name="apple-mobile-web-app-title" content="Code Matrix"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://codematrix.netlify.com/ubuntuwsl/" /><link rel="next" href="https://codematrix.netlify.com/hello-world/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><meta name="google-site-verification" content="googlec6b1960c8815b97b.html" /><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Windows Gets a Linux Makeover: Install Ubuntu WSL Today!",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/codematrix.netlify.com\/ubuntuwsl\/"
+        },"genre": "posts","keywords": "Blog, how-to-do, linux","wordcount":  804 ,
+        "url": "https:\/\/codematrix.netlify.com\/ubuntuwsl\/","datePublished": "2023-06-19T14:28:16+05:45","dateModified": "2023-06-19T18:25:08+05:45","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Suyog Prasai"
+            },"description": "In this blog I'll be showcasing how to make an installtion of windows subsystem for linux (WSL) and ubuntu "
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="CodeMatrix"><span class="header-title-pre"><i class="fa-solid fa-code"></i></span>CodeMatrix</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><a class="menu-item" href="/about/"> About </a><a class="menu-item" href="https://github.com/suyogprasai" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw' aria-hidden='true'></i>  </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="CodeMatrix"><span class="header-title-pre"><i class="fa-solid fa-code"></i></span>CodeMatrix</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a class="menu-item" href="/about/" title="">About</a><a class="menu-item" href="https://github.com/suyogprasai" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw' aria-hidden='true'></i></a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Windows Gets a Linux Makeover: Install Ubuntu WSL Today!</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Suyog Prasai</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-06-19">2023-06-19</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;804 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;4 minutes&nbsp;</div>
+        </div><div class="featured-image"><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/ubuntuwsl/featured.jpg"
+        data-srcset="/ubuntuwsl/featured.jpg, /ubuntuwsl/featured.jpg 1.5x, /ubuntuwsl/featured.jpg 2x"
+        data-sizes="auto"
+        alt="/ubuntuwsl/featured.jpg"
+        title="In this blog I&#39;ll be showcasing how to make an installtion of windows subsystem for linux (WSL) and ubuntu " width="540" height="243" /></div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#what-is-wsl">What is WSL?</a>
+      <ul>
+        <li><a href="#usage-of-wsl">Usage of WSL</a></li>
+        <li><a href="#installation">Installation</a>
+          <ul>
+            <li><a href="#enable-the-windows-subsystem-for-linux-feature">Enable the Windows Subsystem for Linux feature:</a></li>
+            <li><a href="#upgrading-wsl-to-version-2">Upgrading WSL to version 2</a></li>
+            <li><a href="#install-a-linux-distribution-from-the-microsoft-store">Install a Linux distribution from the Microsoft Store:</a></li>
+            <li><a href="#set-up-your-linux-distribution">Set up your Linux distribution:</a></li>
+            <li><a href="#start-using-wsl">Start using WSL:</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><p>In this post, I will be showcasing the installation of <strong>windows linux subsystem (WSL)</strong> and <strong>Ubuntu</strong> in windows. This is a guide for installing Ubuntu for optimal performance.</p>
+<h2 id="what-is-wsl">What is WSL?</h2>
+<blockquote>
+<p>WSL stands for Windows Subsystem for Linux. It is a <strong>compatiblity layer</strong> developed by Microsoft that allows running native Linux command-line tools and utilites directly on Windows. WSL provides a way to run a Linux distribution, such as Ubuntu, alongside the Windows operating system without the need for virtual machines or dual-boot configurations.</p>
+</blockquote>
+<h3 id="usage-of-wsl">Usage of WSL</h3>
+<div class="details admonition info open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-info-circle fa-fw" aria-hidden="true"></i>Versions of WSL<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">WSL comes in two versions: <strong>WSL 1</strong> and <strong>WSL 2</strong>. WSL 1 is based on a compatibility layer that translates Linux system calls to Windows equivalents, while WSL 2 is a more advanced version that utilizes a lightweight virtual machine for improved performance and compatibility.</div>
+        </div>
+    </div>
+<h3 id="installation">Installation</h3>
+<p>For installing <a href="#what-is-wsl?" rel="">WSL</a>, there are various requirements that must be fullfilled. These requirements must be met then only one must proceed with the installation.</p>
+<div class="details admonition abstract open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-list-ul fa-fw" aria-hidden="true"></i>Requirements<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><p>To install WSL (Windows Subsystem for Linux) on Windows, you&rsquo;ll need to meet the following requirements:</p>
+<ol>
+<li>
+<p><strong>Operating System:</strong> Windows 10, version 1903 or later.</p>
+<ul>
+<li><em>Note</em>: WSL 2 is available in Windows 10, version 2004 or later.</li>
+</ul>
+</li>
+<li>
+<p><strong>System Architecture:</strong> 64-bit Windows.</p>
+</li>
+<li>
+<p><strong>Enable Virtualization:</strong></p>
+<ul>
+<li>Ensure that virtualization is enabled in your system&rsquo;s BIOS settings.
+Some systems may refer to this feature as &ldquo;Intel Virtualization Technology&rdquo; (Intel VT) or &ldquo;AMD Virtualization&rdquo; (AMD-V).</li>
+</ul>
+</li>
+<li>
+<p><strong>Windows Update:</strong> Make sure your Windows system is up to date.</p>
+<ul>
+<li>WSL requires certain Windows updates to function correctly, so it&rsquo;s recommended to have the latest updates installed.</li>
+</ul>
+</li>
+<li>
+<p><strong>Check WSL Support:</strong> Verify that your Windows version supports WSL.</p>
+<ul>
+<li>Open PowerShell as an administrator and run the command: <code>wsl --list --online </code>.</li>
+<li>If the command displays a list of available WSL distributions, your Windows version supports WSL.</li>
+</ul>
+</li>
+<li>
+<p><strong>Internet Connection:</strong> Ensure you have an active internet connection during the installation process.</p>
+<ul>
+<li>WSL will download the Linux distribution from the Microsoft Store during the installation.</li>
+</ul>
+</li>
+<li>
+<p><strong>Sufficient Disk Space:</strong> Make sure you have enough free disk space to install the Linux distribution.</p>
+<ul>
+<li>The disk space requirements vary depending on the Linux distribution you choose.</li>
+</ul>
+</li>
+</ol>
+<ul>
+<li>Keep in mind that these requirements are based on the general guidelines for WSL installation. Microsoft may introduce updates or changes, so it&rsquo;s always a good idea to refer to the official documentation for the most up-to-date information regarding WSL installation requirements for your specific Windows version.</li>
+</ul>
+</div>
+        </div>
+    </div>
+<p>If these requirements are fulfilled then we can proceed with the installation.</p>
+<h4 id="enable-the-windows-subsystem-for-linux-feature">Enable the Windows Subsystem for Linux feature:</h4>
+<ul>
+<li>Open PowerShell as an administrator. You can do this by right-clicking the Start button and selecting &ldquo;Windows PowerShell (Admin)&rdquo;.</li>
+<li>Run the following command: <code>wsl --install</code> or <code>wsl --install -d &lt;distribution&gt;</code> (replace <code>&lt;distribution&gt;</code> with the name of the Linux distribution you want to install, such as &ldquo;Ubuntu&rdquo;). This command will enable WSL and install the default Linux distribution from the Microsoft Store.
+<figure><a class="lightgallery" href="/ubuntuwsl/install.jpg" title="Install Command Image" data-thumbnail="/ubuntuwsl/install.jpg" data-sub-html="<h2>Install Command</h2>">
+           <img
+               class="lazyload"
+               src="/svg/loading.min.svg"
+               data-src="/ubuntuwsl/install.jpg"
+               data-srcset="/ubuntuwsl/install.jpg, /ubuntuwsl/install.jpg 1.5x, /ubuntuwsl/install.jpg 2x"
+               data-sizes="auto"
+               alt="Install Command Image" width="1112" height="622" />
+       </a><figcaption class="image-caption">Install Command</figcaption>
+       </figure></li>
+<li>Follow any on-screen prompts and wait for the installation to complete.</li>
+<li>Restart the computer!</li>
+</ul>
+<h4 id="upgrading-wsl-to-version-2">Upgrading WSL to version 2</h4>
+<p>WSL 2 is better than WSL because it utilizes a full Linux kernel within a lightweight virtual machine (VM), resulting in superior performance, improved system call compatibility, and enhanced resource utilization. The inclusion of the Linux kernel allows for faster file system operations, seamless integration of Linux applications with Windows, and an overall more powerful and efficient Linux experience on Windows machines. So, we will be upgrading to wsl 2.</p>
+<ul>
+<li>First of all, you must have <strong>installed WSL</strong> from the steps above. This is really important</li>
+<li>Then, you should download the latest <a href="https://learn.microsoft.com/en-us/windows/wsl/install-manual#step-4---download-the-linux-kernel-update-package" target="_blank" rel="noopener noreffer ">Linux Kernal</a> update package and install it</li>
+<li>Finally, you should set WSL2 as your default version. Open Powershell as Administrator and run: <code>wsl --set-default-version 2</code></li>
+</ul>
+<h4 id="install-a-linux-distribution-from-the-microsoft-store">Install a Linux distribution from the Microsoft Store:</h4>
+<ul>
+<li>Open the Microsoft Store app on your Windows system.</li>
+<li>Search for the Linux distribution you want to install, such as &ldquo;Ubuntu&rdquo; or &ldquo;Debian&rdquo;. In this installation we are installing &ldquo;Ubuntu&rdquo; so, I&rsquo;ll be installing ubuntu.
+<ul>
+<li>You can also use <code>winget install ubuntu</code> if it is convinient.</li>
+</ul>
+</li>
+<li>From the search results click on Ubuntu and on the &ldquo;Install&rdquo; button</li>
+<li>Wait for the installation to complete. This may take a few minutes depending on your internet connection speed.</li>
+</ul>
+<figure><a class="lightgallery" href="/ubuntuwsl/ubuntu_download.jpg" title="Ubuntu Installation Image" data-thumbnail="/ubuntuwsl/ubuntu_download.jpg" data-sub-html="<h2>Ubuntu Installation</h2>">
+           <img
+               class="lazyload"
+               src="/svg/loading.min.svg"
+               data-src="/ubuntuwsl/ubuntu_download.jpg"
+               data-srcset="/ubuntuwsl/ubuntu_download.jpg, /ubuntuwsl/ubuntu_download.jpg 1.5x, /ubuntuwsl/ubuntu_download.jpg 2x"
+               data-sizes="auto"
+               alt="Ubuntu Installation Image" width="1195" height="996" />
+       </a><figcaption class="image-caption">Ubuntu Installation</figcaption>
+       </figure>
+<h4 id="set-up-your-linux-distribution">Set up your Linux distribution:</h4>
+<ul>
+<li>Launch the installed Linux distribution from the Start menu or by searching for its name.</li>
+<li>The first time you launch it, you&rsquo;ll need to wait for the installation to complete, which involves setting up the initial Linux user account and configuring the distribution.</li>
+<li>Follow the on-screen instructions to complete the setup.
+<figure><a class="lightgallery" href="/ubuntuwsl/ubuntu_conditions.jpg" title="Ubuntu Setup Image" data-thumbnail="/ubuntuwsl/ubuntu_conditions.jpg" data-sub-html="<h2>Ubuntu Setup</h2>">
+           <img
+               class="lazyload"
+               src="/svg/loading.min.svg"
+               data-src="/ubuntuwsl/ubuntu_conditions.jpg"
+               data-srcset="/ubuntuwsl/ubuntu_conditions.jpg, /ubuntuwsl/ubuntu_conditions.jpg 1.5x, /ubuntuwsl/ubuntu_conditions.jpg 2x"
+               data-sizes="auto"
+               alt="Ubuntu Setup Image" width="1096" height="685" />
+       </a><figcaption class="image-caption">Ubuntu Setup</figcaption>
+       </figure></li>
+</ul>
+<h4 id="start-using-wsl">Start using WSL:</h4>
+<ul>
+<li>Once the setup is complete, you can use WSL by launching the Linux distribution you installed. It will open a terminal window running the Linux environment.</li>
+<li>You can run Linux commands, install software packages, and perform various tasks within the WSL environment.</li>
+</ul></div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2023-06-19</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://codematrix.netlify.com/ubuntuwsl/" data-title="Windows Gets a Linux Makeover: Install Ubuntu WSL Today!" data-via="@suyog_prasai" data-hashtags="Blog,how-to-do,linux"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://codematrix.netlify.com/ubuntuwsl/" data-hashtag="Blog"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="https://codematrix.netlify.com/ubuntuwsl/" data-title="Windows Gets a Linux Makeover: Install Ubuntu WSL Today!"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Reddit" data-sharer="reddit" data-url="https://codematrix.netlify.com/ubuntuwsl/"><i class="fab fa-reddit fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="https://codematrix.netlify.com/ubuntuwsl/" data-title="Windows Gets a Linux Makeover: Install Ubuntu WSL Today!"><i data-svg-src="/lib/simple-icons/icons/line.min.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://codematrix.netlify.com/ubuntuwsl/" data-title="Windows Gets a Linux Makeover: Install Ubuntu WSL Today!" data-image="featured.jpg"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/blog/">Blog</a>,&nbsp;<a href="/tags/how-to-do/">how-to-do</a>,&nbsp;<a href="/tags/linux/">linux</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav">
+            <a href="/hello-world/" class="next" rel="next" title=" Hello World: Introducing Code Matrix and the Exciting World of Coding"> Hello World: Introducing Code Matrix and the Exciting World of Coding<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+</div>
+<div id="comments"><div id="utterances" class="comment"></div><noscript>
+                Please enable JavaScript to view the comments powered by <a href="https://utteranc.es/">utterances</a>.
+            </noscript></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">Suyog Prasai</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/lightgallery/css/lightgallery-bundle.min.css"><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/algoliasearch/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lightgallery.min.js"></script><script type="text/javascript" src="/lib/lightgallery/plugins/thumbnail/lg-thumbnail.min.js"></script><script type="text/javascript" src="/lib/lightgallery/plugins/zoom/lg-zoom.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/cookieconsent/cookieconsent.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{"utterances":{"darkTheme":"github-dark","issueTerm":"pathname","label":"","lightTheme":"github-light","repo":"suyogprasai/codematrix"}},"cookieconsent":{"content":{"dismiss":"Got it!","link":"Learn more","message":"This website uses Cookies to improve your experience."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"lightgallery":true,"search":{"algoliaAppID":"EOEXCVYQPY","algoliaIndex":"CodeMatrixSearch","algoliaSearchKey":"dd95774775a6bbdb8bc51846c97fec1c","highlightTag":"em","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"algolia"}};</script><script type="text/javascript" src="/js/theme.min.js"></script><script type="text/javascript">
+            window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
+            gtag('config', 'G-TRQMY7Z92P', { 'anonymize_ip': true });
+        </script><script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=G-TRQMY7Z92P" async></script></body>
+</html>

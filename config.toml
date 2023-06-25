@@ -1,5 +1,5 @@
 baseURL = "https://codematrix.netlify.com/"
-
+baseName = "config"
 # Change the default theme to be use when building the site with Hugo
 theme = "LoveIt"
 
