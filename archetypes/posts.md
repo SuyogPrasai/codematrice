@@ -3,7 +3,7 @@ title: ""
 subtitle: ""
 date: {{ .Date }}
 lastmod: 
-draft: false
+draft: true 
 author: ""
 authorLink: ""
 description: ""
