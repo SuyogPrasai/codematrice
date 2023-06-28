@@ -1,15 +1,15 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>linux - Tag - CodeMatrix</title>
-        <link>https://codematrix.netlify.com/tags/linux/</link>
-        <description>linux - Tag - CodeMatrix</description>
+        <title>linux - Tag - CodeMatrice</title>
+        <link>https://codematrice.com/tags/linux/</link>
+        <description>linux - Tag - CodeMatrice</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>suyog224356@gmail.com (Suyog Prasai)</managingEditor>
-            <webMaster>suyog224356@gmail.com (Suyog Prasai)</webMaster><lastBuildDate>Mon, 19 Jun 2023 14:28:16 &#43;0545</lastBuildDate><atom:link href="https://codematrix.netlify.com/tags/linux/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>suyog224356@gmail.com (Suyog Prasai)</webMaster><lastBuildDate>Mon, 19 Jun 2023 14:28:16 &#43;0545</lastBuildDate><atom:link href="https://codematrice.com/tags/linux/" rel="self" type="application/rss+xml" /><item>
     <title>Windows Gets a Linux Makeover: Install Ubuntu WSL Today!</title>
-    <link>https://codematrix.netlify.com/ubuntuwsl/</link>
+    <link>https://codematrice.com/ubuntuwsl/</link>
     <pubDate>Mon, 19 Jun 2023 14:28:16 &#43;0545</pubDate>
     <author>Suyog Prasai</author>
-    <guid>https://codematrix.netlify.com/ubuntuwsl/</guid>
+    <guid>https://codematrice.com/ubuntuwsl/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/featured.jpg" referrerpolicy="no-referrer">
             </div><p>In this post, I will be showcasing the installation of <strong>windows linux subsystem (WSL)</strong> and <strong>Ubuntu</strong> in windows. This is a guide for installing Ubuntu for optimal performance.</p>]]></description>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on CodeMatrix</title>
-    <link>https://codematrix.netlify.com/categories/blog/</link>
-    <description>Recent content in Blog on CodeMatrix</description>
+    <title>Blog on CodeMatrice</title>
+    <link>https://codematrice.com/categories/blog/</link>
+    <description>Recent content in Blog on CodeMatrice</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>suyog224356@gmail.com (Suyog Prasai)</managingEditor>
-    <webMaster>suyog224356@gmail.com (Suyog Prasai)</webMaster><atom:link href="https://codematrix.netlify.com/categories/blog/index.xml" rel="self" type="application/rss+xml" />
+    <webMaster>suyog224356@gmail.com (Suyog Prasai)</webMaster><atom:link href="https://codematrice.com/categories/blog/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

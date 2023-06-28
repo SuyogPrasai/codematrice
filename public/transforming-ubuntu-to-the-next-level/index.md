@@ -25,18 +25,18 @@ By default, Windows Terminal uses the Consolas font. It is good but it does not 
 
 - You can go to their [website](https://nerdfonst.com/font-downloads) and download your favourite font. In this installation, I will be installing the [CodeNewRoman](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/CodeNewRoman.zip) Nerd Font. You can choose the font of choice. 
 
-{{< image src="nerd_font_installation.png" caption="Nerd Font Installation" alt="Nerd Font Installation">}}
+{{< image src="nerd_font_installation.jpg" caption="Nerd Font Installation" alt="Nerd Font Installation">}}
 
 - You must install the font for **all the users** in your system to avoid problems. You must do it by extracting the zip file you downloaded using 7zip or Winrar. Then you must go inside the folder where you extracted the files. Then you must select all the font files. 
 They are generally with extension ".ttf" or ".otf". Then right-click and click on "Install for all the users".
 
 - After, Installing the font you must go to the settings of your Windows terminal. From there you must go into your appearance settings for your Ubuntu Profile. 
 
-{{< image src="profile_setting.png"  caption="Settings" alt="Settings Image" >}}
+{{< image src="profile_setting.jpg"  caption="Settings" alt="Settings Image" >}}
 
 - From the appearance settings, you must select the font that you just downloaded in the font selection menu. 
 
-{{< image src="fonts_selection.png" caption="Fonts Selection" alt="fonts_selection Image">}}
+{{< image src="fonts_selection.jpg" caption="Fonts Selection" alt="fonts_selection Image">}}
 
 - If all goes well then you have successfully installed the fonts required. Now you can proceed to the next steps. The fun part begins now.
 
@@ -69,7 +69,7 @@ curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install 
 ```
 - Now with oh-my-fish, you can choose various plugins and themes for your fish installation. Just type `omf theme` and it should give you a bunch of options. 
 
-{{< image src="omf_theme.png" caption="omf_theme" >}}
+{{< image src="omf_theme.jpg" caption="omf_theme" >}}
 - For this installation, I will be installing the `sashimi` theme. 
 ```shell
 omf theme sashimi
