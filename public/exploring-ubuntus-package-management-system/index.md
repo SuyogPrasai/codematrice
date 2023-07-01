@@ -1,63 +1,5 @@
----
-title: "Exploring Ubuntu's Package Management System"
-subtitle: "Exploring Ubuntu's Package Management System"
-date: 2023-07-01T10:50:16+05:45
-lastmod: 
-draft: false 
-author: "Suyog Prasai"
-authorLink: ""
-description: "In this blog post, I wiil be discussinng on the package management system of Ubuntu, (Advanced Package Tool)"
-license: ""
-images: ["featured.jpg", "repo.jpg", "best_practices.webp"]
+# Exploring Ubuntu's Package Management System
 
-tags: []
-categories: []
-
-featuredImage: "featured.jpg"
-featuredImagePreview: ""
-
-hiddenFromHomePage: false
-hiddenFromSearch: false
-twemoji: false
-lightgallery: true
-ruby: true
-fraction: true
-fontawesome: true
-linkToMarkdown: false
-rssFullText: false
-
-toc:
-  enable: true
-  auto: true
-code:
-  copy: true
-  maxShownLines: 50
-math:
-  enable: false
-  # ...
-mapbox:
-  # ...
-share:
-  enable: true
-  # ...
-comment:
-  enable: true
-  # ...
-library:
-  css:
-    # someCSS = "some.css"
-    # located in "assets/"
-    # Or
-    # someCSS = "https://cdn.example.com/some.css"
-  js:
-    # someJS = "some.js"
-    # located in "assets/"
-    # Or
-    # someJS = "https://cdn.example.com/some.js"
-seo:
-    images: ["featured.jpg"]
-  # ...
----
 The APT package manager is a free and open-source package management tool in Debian-based systems like Ubuntu. It is one of the important tools if you want to learn Linux in general. It is the successor of the dpkg package management tool. It helps you pull down packages from the internet. It is the tool that revolutionized the software installing processes in Debian based distros. Ubuntu is also one of the distros that use this package management tool.
 <!--more--> 
  
@@ -164,3 +106,4 @@ We encourage you to continue exploring and experimenting with APT to enhance you
 By mastering Ubuntu's package management system and harnessing the power of APT, you can unlock a world of software possibilities and make the most out of your Ubuntu journey.
 
 Happy exploring and happy Ubuntu-ing!
+

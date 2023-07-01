@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Exploring Ubuntu&#39;s Package Management System - CodeMatrice</title><meta name="Description" content="In this blog post, I wiil be discussinng on the package management system of Ubuntu, (Advanced Package Tool)"><meta property="og:title" content="Exploring Ubuntu&#39;s Package Management System" />
+<meta property="og:description" content="In this blog post, I wiil be discussinng on the package management system of Ubuntu, (Advanced Package Tool)" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://codematrice.com/exploring-ubuntus-package-management-system/" /><meta property="og:image" content="https://codematrice.com/featured.jpg" /><meta property="og:image" content="https://codematrice.com/repo.jpg" /><meta property="og:image" content="https://codematrice.com/best_practices.webp" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-07-01T10:50:16+05:45" />
+<meta property="article:modified_time" content="2023-07-01T18:53:32+05:45" /><meta property="og:site_name" content="CodeMatrice" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://codematrice.com/featured.jpg"/>
+
+<meta name="twitter:title" content="Exploring Ubuntu&#39;s Package Management System"/>
+<meta name="twitter:description" content="In this blog post, I wiil be discussinng on the package management system of Ubuntu, (Advanced Package Tool)"/>
+<meta name="application-name" content="Code Matrice">
+<meta name="apple-mobile-web-app-title" content="Code Matrice"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://codematrice.com/exploring-ubuntus-package-management-system/" /><link rel="prev" href="https://codematrice.com/transforming-ubuntu-to-the-next-level/" /><link rel="next" href="https://codematrice.com/hello-world/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><meta name="google-site-verification" content="googlec6b1960c8815b97b.html" /><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Exploring Ubuntu's Package Management System",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/codematrice.com\/exploring-ubuntus-package-management-system\/"
+        },"image": [{
+                            "@type": "ImageObject",
+                            "url": "https:\/\/codematrice.com\/exploring-ubuntus-package-management-system\/featured.jpg",
+                            "width":  853 ,
+                            "height":  480 
+                        }],"genre": "posts","wordcount":  1194 ,
+        "url": "https:\/\/codematrice.com\/exploring-ubuntus-package-management-system\/","datePublished": "2023-07-01T10:50:16+05:45","dateModified": "2023-07-01T18:53:32+05:45","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Suyog Prasai"
+            },"description": "In this blog post, I wiil be discussinng on the package management system of Ubuntu, (Advanced Package Tool)"
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="CodeMatrice"><span class="header-title-pre"><i class="fa-solid fa-code"></i></span>CodeMatrice</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><a class="menu-item" href="/about/"> About </a><a class="menu-item" href="https://github.com/suyogprasai" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw' aria-hidden='true'></i>  </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="CodeMatrice"><span class="header-title-pre"><i class="fa-solid fa-code"></i></span>CodeMatrice</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a class="menu-item" href="/about/" title="">About</a><a class="menu-item" href="https://github.com/suyogprasai" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw' aria-hidden='true'></i></a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Exploring Ubuntu's Package Management System</h1><h2 class="single-subtitle">Exploring Ubuntu&#39;s Package Management System</h2><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Suyog Prasai</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-07-01">2023-07-01</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;1194 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;6 minutes&nbsp;</div>
+        </div><div class="featured-image"><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/exploring-ubuntus-package-management-system/featured.jpg"
+        data-srcset="/exploring-ubuntus-package-management-system/featured.jpg, /exploring-ubuntus-package-management-system/featured.jpg 1.5x, /exploring-ubuntus-package-management-system/featured.jpg 2x"
+        data-sizes="auto"
+        alt="/exploring-ubuntus-package-management-system/featured.jpg"
+        title="In this blog post, I wiil be discussinng on the package management system of Ubuntu, (Advanced Package Tool)" width="853" height="480" /></div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#what-is-apt">What is APT?</a></li>
+    <li><a href="#repositories-in-ubuntu">Repositories in Ubuntu</a></li>
+    <li><a href="#basic-apt-commands">Basic APT Commands</a></li>
+    <li><a href="#tips-and-best-practices">Tips and Best Practices</a></li>
+    <li><a href="#conclusion">Conclusion</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><p>The APT package manager is a free and open-source package management tool in Debian-based systems like Ubuntu. It is one of the important tools if you want to learn Linux in general. It is the successor of the dpkg package management tool. It helps you pull down packages from the internet. It is the tool that revolutionized the software installing processes in Debian based distros. Ubuntu is also one of the distros that use this package management tool.</p>
+<h2 id="what-is-apt">What is APT?</h2>
+<ul>
+<li>APT (Advanced Package Tool) is a package management system used in Ubuntu and other Debian-based Linux distributions.</li>
+<li>It simplifies software installation, upgrades, and removals.</li>
+<li>APT uses repositories, which are online servers containing a collection of software packages.</li>
+<li>It automatically handles dependencies, fetching and installing additional packages required by the software.</li>
+<li>APT keeps track of installed packages and provides updates for bug fixes, security patches, and new features.</li>
+<li>With APT, users can easily discover, install, and update software packages.</li>
+</ul>
+<h2 id="repositories-in-ubuntu">Repositories in Ubuntu</h2>
+<figure><a class="lightgallery" href="/exploring-ubuntus-package-management-system/repo.jpg" title="repo" data-thumbnail="/exploring-ubuntus-package-management-system/repo.jpg" data-sub-html="<h2>Repository Types</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/exploring-ubuntus-package-management-system/repo.jpg"
+            data-srcset="/exploring-ubuntus-package-management-system/repo.jpg, /exploring-ubuntus-package-management-system/repo.jpg 1.5x, /exploring-ubuntus-package-management-system/repo.jpg 2x"
+            data-sizes="auto"
+            alt="repo" width="800" height="450" />
+    </a><figcaption class="image-caption">Repository Types</figcaption>
+    </figure>
+<p>Repositories play a crucial role in package management in Ubuntu. They are online servers that contain a vast collection of software packages. Understanding repositories is key to accessing and managing software through APT (Advanced Package Tool).</p>
+<p>In Ubuntu, there are several types of repositories:</p>
+<ul>
+<li>
+<p><strong>Main</strong>: This repository contains officially supported and fully open-source software packages. It is enabled by default and provides a wide range of applications that are thoroughly tested and maintained by the Ubuntu team.</p>
+</li>
+<li>
+<p><strong>Universe</strong>: The universe repository consists of community-maintained packages that are not officially supported by Ubuntu. These packages expand the software availability and are typically open-source.</p>
+</li>
+<li>
+<p><strong>Restricted</strong>: The restricted repository contains proprietary software packages that are supported by Ubuntu but have certain usage restrictions due to licensing or legal constraints. These packages may require additional steps for installation.</p>
+</li>
+<li>
+<p><strong>Multiverse</strong>: The multiverse repository includes packages that are not open-source and have restrictive licenses. These packages are not officially supported and may have compatibility or legal issues.</p>
+</li>
+</ul>
+<p>Enabling and managing repositories in Ubuntu can be done through various methods. Here are a couple of common approaches:</p>
+<ol>
+<li><strong>Using apt-add-repository command</strong>: The <code>apt-add-repository</code> command allows you to enable additional repositories. For example, to add a repository, you can use the following command:</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo apt-add-repository universe
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>This command enables the universe repository. After adding the repository, you will need to update the package lists using <code>apt-get update</code>.</p>
+<ol start="2">
+<li><strong>Editing configuration files</strong>: Repositories can also be managed by editing the <code>/etc/apt/sources.list</code> file or the files in the <code>/etc/apt/sources.list.d/</code> directory. These files list the repositories enabled on your system. By adding or removing repository entries, you can control the software sources available through APT.</li>
+</ol>
+<p>Remember to exercise caution when adding or removing repositories. Stick to trusted sources and official repositories to ensure the integrity and security of your system.</p>
+<p>Understanding repositories and how to enable or manage them gives you greater control over the software packages available for installation in Ubuntu.</p>
+<h2 id="basic-apt-commands">Basic APT Commands</h2>
+<p>APT (Advanced Package Tool) provides several commonly used commands that simplify package management in Ubuntu. Here are some essential APT commands and their functionalities:</p>
+<ul>
+<li>
+<p><strong>apt-get update</strong>: This command updates the local package index, allowing APT to know about the latest package versions and dependencies. It&rsquo;s crucial to run this command before installing or upgrading packages to ensure you have the latest information from the repositories.</p>
+</li>
+<li>
+<p><strong>apt-get install</strong>: With this command, you can install packages from repositories. Simply specify the name of the package you want to install, and APT will handle the retrieval and installation process along with any required dependencies. For example:</p>
+</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo apt-get install package-name
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>
+<p><strong>apt-get upgrade</strong>: The <code>apt-get upgrade</code> command upgrades all installed packages on your system to their latest versions. It ensures that your software is up to date with the latest bug fixes, security patches, and new features. Run the following command to perform an upgrade:</p>
+</li>
+<li>
+<p><strong>apt-get remove</strong>: If you no longer need a package, you can uninstall it using the <code>apt-get remove</code> command. Specify the name of the package you wish to remove, and APT will handle the removal process while preserving the system&rsquo;s integrity. For example:</p>
+</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo apt-get remove package-name
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li><strong>apt-cache search</strong>: This command allows you to search for packages based on keywords. It scans the package index and displays a list of packages that match your search criteria. For instance:</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">apt-cache search keyword
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>These basic APT commands provide essential functionality for managing packages in Ubuntu. They streamline the installation, upgrade, and removal processes, ensuring that your system remains up to date and optimized with the software you need.</p>
+<h2 id="tips-and-best-practices">Tips and Best Practices</h2>
+<figure><a class="lightgallery" href="/exploring-ubuntus-package-management-system/best_practices.webp" title="best practices" data-thumbnail="/exploring-ubuntus-package-management-system/best_practices.webp" data-sub-html="<h2>Best practices</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/exploring-ubuntus-package-management-system/best_practices.webp"
+            data-srcset="/exploring-ubuntus-package-management-system/best_practices.webp, /exploring-ubuntus-package-management-system/best_practices.webp 1.5x, /exploring-ubuntus-package-management-system/best_practices.webp 2x"
+            data-sizes="auto"
+            alt="best practices" width="1080" height="565" />
+    </a><figcaption class="image-caption">Best practices</figcaption>
+    </figure>
+<p>Here are some practical tips and best practices for efficient package management in Ubuntu:</p>
+<ul>
+<li>
+<p><strong>Regularly update your system and packages</strong>: Keeping your system and packages up to date is crucial for security, bug fixes, and performance improvements. Use the <code>sudo apt-get update</code> and <code>sudo apt-get upgrade</code> commands regularly to update your system and installed packages.</p>
+</li>
+<li>
+<p><strong>Avoid adding unknown or untrusted repositories</strong>: Stick to official repositories and trusted sources when adding repositories to your system. Adding unknown or untrusted repositories can pose security risks or cause compatibility issues. Exercise caution and do thorough research before adding new repositories.</p>
+</li>
+<li>
+<p><strong>Clean up unused packages and dependencies</strong>: Over time, unused packages and their dependencies can accumulate on your system, taking up valuable disk space. Use the <code>sudo apt-get autoremove</code> command to remove orphaned packages that are no longer needed. This helps keep your system clean and efficient.</p>
+</li>
+<li>
+<p><strong>Use aptitude for advanced package management</strong>: aptitude is an alternative command-line package management tool that offers advanced features and capabilities. It provides a more interactive and user-friendly interface for managing packages, resolving dependencies, and handling complex upgrade scenarios. Consider using <code>sudo aptitude</code> instead of <code>sudo apt-get</code> for advanced package management tasks.</p>
+</li>
+</ul>
+<p>By following these tips and best practices, you can ensure efficient package management in Ubuntu, keeping your system up to date, secure, and optimized for your needs.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>In this blog post, we explored Ubuntu&rsquo;s package management system and its core component, APT (Advanced Package Tool). We discussed the significance of understanding and effectively utilizing APT for managing software packages in Ubuntu.</p>
+<p>Key points to remember:</p>
+<ul>
+<li>APT simplifies software installation, upgrades, and removals by automating package retrieval, dependency resolution, and version tracking.</li>
+<li>Repositories are online servers containing software packages, and different types of repositories like main, universe, restricted, and multiverse provide a variety of software options.</li>
+<li>Enabling and managing repositories can be done using commands like <code>apt-add-repository</code> or by editing configuration files.</li>
+<li>Basic APT commands such as <code>apt-get update</code>, <code>apt-get install</code>, <code>apt-get upgrade</code>, <code>apt-get remove</code>, and <code>apt-cache search</code> are essential for everyday package management tasks.</li>
+</ul>
+<p>Understanding and effectively utilizing APT not only streamlines package management but also ensures a clean and organized system with up-to-date software.</p>
+<p>We encourage you to continue exploring and experimenting with APT to enhance your Ubuntu experience. Regularly updating your system, cleaning up unused packages, and using trusted repositories are essential practices for maintaining a secure and efficient Ubuntu environment.</p>
+<p>By mastering Ubuntu&rsquo;s package management system and harnessing the power of APT, you can unlock a world of software possibilities and make the most out of your Ubuntu journey.</p>
+<p>Happy exploring and happy Ubuntu-ing!</p></div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2023-07-01</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://codematrice.com/exploring-ubuntus-package-management-system/" data-title="Exploring Ubuntu&#39;s Package Management System" data-via="@suyog_prasai"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://codematrice.com/exploring-ubuntus-package-management-system/"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="https://codematrice.com/exploring-ubuntus-package-management-system/" data-title="Exploring Ubuntu&#39;s Package Management System"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Reddit" data-sharer="reddit" data-url="https://codematrice.com/exploring-ubuntus-package-management-system/"><i class="fab fa-reddit fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="https://codematrice.com/exploring-ubuntus-package-management-system/" data-title="Exploring Ubuntu&#39;s Package Management System"><i data-svg-src="/lib/simple-icons/icons/line.min.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://codematrice.com/exploring-ubuntus-package-management-system/" data-title="Exploring Ubuntu&#39;s Package Management System" data-image="featured.jpg"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/transforming-ubuntu-to-the-next-level/" class="prev" rel="prev" title="Transforming Ubuntu to the Next Level"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Transforming Ubuntu to the Next Level</a>
+            <a href="/hello-world/" class="next" rel="next" title=" Hello World: Introducing Code Matrice and the Exciting World of Coding"> Hello World: Introducing Code Matrice and the Exciting World of Coding<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+</div>
+<div id="comments"><div id="utterances" class="comment"></div><noscript>
+                Please enable JavaScript to view the comments powered by <a href="https://utteranc.es/">utterances</a>.
+            </noscript></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">Suyog Prasai</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/lightgallery/css/lightgallery-bundle.min.css"><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/algoliasearch/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lightgallery.min.js"></script><script type="text/javascript" src="/lib/lightgallery/plugins/thumbnail/lg-thumbnail.min.js"></script><script type="text/javascript" src="/lib/lightgallery/plugins/zoom/lg-zoom.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/cookieconsent/cookieconsent.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{"utterances":{"darkTheme":"github-dark","issueTerm":"pathname","label":"","lightTheme":"github-light","repo":"suyogprasai/codematrix"}},"cookieconsent":{"content":{"dismiss":"Got it!","link":"Learn more","message":"This website uses Cookies to improve your experience."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"lightgallery":true,"search":{"algoliaAppID":"EOEXCVYQPY","algoliaIndex":"CodeMatrixSearch","algoliaSearchKey":"dd95774775a6bbdb8bc51846c97fec1c","highlightTag":"em","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"algolia"}};</script><script type="text/javascript" src="/js/theme.min.js"></script><script type="text/javascript">
+            window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
+            gtag('config', 'G-TRQMY7Z92P', { 'anonymize_ip': true });
+        </script><script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=G-TRQMY7Z92P" async></script></body>
+</html>
