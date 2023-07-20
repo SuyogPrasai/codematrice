@@ -4,7 +4,7 @@
         <link>https://codematrice.com/posts/</link>
         <description>All Posts | CodeMatrice</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>suyog224356@gmail.com (Suyog Prasai)</managingEditor>
-            <webMaster>suyog224356@gmail.com (Suyog Prasai)</webMaster><lastBuildDate>Sat, 01 Jul 2023 10:50:16 &#43;0545</lastBuildDate><atom:link href="https://codematrice.com/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>suyog224356@gmail.com (Suyog Prasai)</webMaster><lastBuildDate>Thu, 20 Jul 2023 14:19:36 &#43;0545</lastBuildDate><atom:link href="https://codematrice.com/posts/" rel="self" type="application/rss+xml" /><item>
     <title> Hello World: Introducing Code Matrice and the Exciting World of Coding</title>
     <link>https://codematrice.com/hello-world/</link>
     <pubDate>Sat, 17 Jun 2023 10:52:18 &#43;0545</pubDate>
@@ -13,6 +13,16 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="/featured.jpg" referrerpolicy="no-referrer">
             </div><p>Welcome to Code Matrice, your gateway to the thrilling world of coding! In this inaugural blog post, I&rsquo;m thrilled to introduce you to my platform and the amazing journey that awaits you as you dive into the realm of programming.</p>]]></description>
+</item>
+<item>
+    <title>The Flexibility of Linux: Unleashing the Power of Customization</title>
+    <link>https://codematrice.com/the-flexibility-of-linux-unleashing-the-power-of-customization/</link>
+    <pubDate>Thu, 20 Jul 2023 14:19:36 &#43;0545</pubDate>
+    <author>Suyog Prasai</author>
+    <guid>https://codematrice.com/the-flexibility-of-linux-unleashing-the-power-of-customization/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/featured.jpg" referrerpolicy="no-referrer">
+            </div>Linux is one of the most flexible environments to work with specially for us technical people. Once you get the grasp of linux you can find the real essence of coding and programming itself.]]></description>
 </item>
 <item>
     <title>Exploring Ubuntu&#39;s Package Management System</title>
