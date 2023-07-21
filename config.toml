@@ -453,7 +453,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       [params.page.comment.utterances]
         enable = true
         # owner/repo
-        repo = "suyogprasai/codematrix"
+        repo = "suyogprasai/codematrice"
         issueTerm = "pathname"
         label = ""
         lightTheme = "github-light"
