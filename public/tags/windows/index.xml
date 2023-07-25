@@ -1,10 +1,20 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Windows - Tag - CodeMatrice</title>
+        <title>windows - Tag - CodeMatrice</title>
         <link>https://codematrice.com/tags/windows/</link>
-        <description>Windows - Tag - CodeMatrice</description>
+        <description>windows - Tag - CodeMatrice</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>suyog224356@gmail.com (Suyog Prasai)</managingEditor>
-            <webMaster>suyog224356@gmail.com (Suyog Prasai)</webMaster><lastBuildDate>Sun, 25 Jun 2023 07:55:52 &#43;0545</lastBuildDate><atom:link href="https://codematrice.com/tags/windows/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>suyog224356@gmail.com (Suyog Prasai)</webMaster><lastBuildDate>Tue, 25 Jul 2023 14:23:58 &#43;0545</lastBuildDate><atom:link href="https://codematrice.com/tags/windows/" rel="self" type="application/rss+xml" /><item>
+    <title>Applications to Install in Windows 11</title>
+    <link>https://codematrice.com/applications-to-install-in-windows-11/</link>
+    <pubDate>Tue, 25 Jul 2023 14:23:58 &#43;0545</pubDate>
+    <author>Suyog Prasai</author>
+    <guid>https://codematrice.com/applications-to-install-in-windows-11/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/featured.jpg" referrerpolicy="no-referrer">
+            </div>Applications to install in windows 11.]]></description>
+</item>
+<item>
     <title>Transforming Ubuntu to the Next Level</title>
     <link>https://codematrice.com/transforming-ubuntu-to-the-next-level/</link>
     <pubDate>Sun, 25 Jun 2023 07:55:52 &#43;0545</pubDate>

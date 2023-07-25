@@ -1,63 +1,5 @@
----
-title: "Applications to Install in Windows 11"
-subtitle: "Applications to Install in Windows 11"
-date: 2023-07-25T14:23:58+05:45
-lastmod: 
-draft: false 
-author: "Suyog Prasai"
-authorLink: ""
-description: "Applications to install in windows 11."
-license: ""
-images: []
+# Applications to Install in Windows 11
 
-tags: ["windows", "applications"]
-categories: ["blog"]
-
-featuredImage: "featured.jpg"
-featuredImagePreview: ""
-
-hiddenFromHomePage: false
-hiddenFromSearch: false
-twemoji: false
-lightgallery: true
-ruby: true
-fraction: true
-fontawesome: true
-linkToMarkdown: false
-rssFullText: false
-
-toc:
-  enable: true
-  auto: true
-code:
-  copy: true
-  maxShownLines: 50
-math:
-  enable: false
-  # ...
-mapbox:
-  # ...
-share:
-  enable: true
-  # ...
-comment:
-  enable: true
-  # ...
-library:
-  css:
-    # someCSS = "some.css"
-    # located in "assets/"
-    # Or
-    # someCSS = "https://cdn.example.com/some.css"
-  js:
-    # someJS = "some.js"
-    # located in "assets/"
-    # Or
-    # someJS = "https://cdn.example.com/some.js"
-seo:
-  images: []
-  # ...
----
 
 <!--more-->
 ## What are Applications? 📚
@@ -195,4 +137,5 @@ Here is a list of some exciting applications you may find useful for different p
 |[TinyTake](https://tinytake.com/)|[B1 Free Archiver](https://b1.org/)|[Glary Utilities](https://www.glarysoft.com/glary-utilities/)|
 |[CamStudio](http://camstudio.org/)|[HaoZip](https://www.haozip.com/)|[IObit Uninstaller](https://www.iobit.com/en/advanceduninstaller.php)|
 |[CloudApp](https://www.getcloudapp.com/)|[PowerArchiver](https://www.powerarchiver.com/)|
+
 
