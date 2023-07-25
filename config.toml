@@ -188,7 +188,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     #  whether to use the absolute URL based on the baseURL in search index
     absoluteURL = false
     [params.search.algolia]
-      index = "CodeMatrixSearch"
+      index = "CodeMatriceSearch"
       appID = "EOEXCVYQPY"
       searchKey = "dd95774775a6bbdb8bc51846c97fec1c"
 
