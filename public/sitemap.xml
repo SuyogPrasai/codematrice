@@ -2,22 +2,22 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://codematrice.com/hello-world/</loc><lastmod>2023-06-28T16:33:29&#43;05:45</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
-            <loc>https://codematrice.com/tags/applications/</loc><lastmod>2023-07-25T14:56:32&#43;05:45</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://codematrice.com/applications-to-install-in-windows-11/</loc><lastmod>2023-07-25T14:56:32&#43;05:45</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://codematrice.com/categories/</loc><lastmod>2023-07-25T14:56:32&#43;05:45</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://codematrice.com/</loc><lastmod>2023-07-25T14:56:32&#43;05:45</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://codematrice.com/posts/</loc><lastmod>2023-07-25T14:56:32&#43;05:45</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://codematrice.com/tags/</loc><lastmod>2023-07-25T14:56:32&#43;05:45</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://codematrice.com/tags/windows/</loc><lastmod>2023-07-25T14:56:32&#43;05:45</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://codematrice.com/tags/blog/</loc><lastmod>2023-07-20T15:40:29&#43;05:45</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://codematrice.com/tags/linux/</loc><lastmod>2023-07-20T15:40:29&#43;05:45</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://codematrice.com/the-flexibility-of-linux-unleashing-the-power-of-customization/</loc><lastmod>2023-07-20T15:40:29&#43;05:45</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://codematrice.com/exploring-ubuntus-package-management-system/</loc><lastmod>2023-07-01T18:55:19&#43;05:45</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
-            <loc>https://codematrice.com/tags/how-to-do/</loc><lastmod>2023-06-25T09:37:41&#43;05:45</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
-            <loc>https://codematrice.com/transforming-ubuntu-to-the-next-level/</loc><lastmod>2023-06-25T09:37:41&#43;05:45</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
+            <loc>https://codematrice.com/hello-world/</loc><lastmod>2023-06-28T16:33:29&#43;05:45</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
+            <loc>https://codematrice.com/tags/applications/</loc><lastmod>2023-07-25T14:56:32&#43;05:45</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
+            <loc>https://codematrice.com/applications-to-install-in-windows-11/</loc><lastmod>2023-07-25T14:56:32&#43;05:45</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
+            <loc>https://codematrice.com/categories/</loc><lastmod>2023-07-25T14:56:32&#43;05:45</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
+            <loc>https://codematrice.com/</loc><lastmod>2023-07-25T14:56:32&#43;05:45</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
+            <loc>https://codematrice.com/posts/</loc><lastmod>2023-07-25T14:56:32&#43;05:45</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
+            <loc>https://codematrice.com/tags/</loc><lastmod>2023-07-25T14:56:32&#43;05:45</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
+            <loc>https://codematrice.com/tags/windows/</loc><lastmod>2023-07-25T14:56:32&#43;05:45</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
+            <loc>https://codematrice.com/tags/blog/</loc><lastmod>2023-07-20T15:40:29&#43;05:45</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
+            <loc>https://codematrice.com/tags/linux/</loc><lastmod>2023-07-20T15:40:29&#43;05:45</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
+            <loc>https://codematrice.com/the-flexibility-of-linux-unleashing-the-power-of-customization/</loc><lastmod>2023-07-20T15:40:29&#43;05:45</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
+            <loc>https://codematrice.com/exploring-ubuntus-package-management-system/</loc><lastmod>2023-07-01T18:55:19&#43;05:45</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
+            <loc>https://codematrice.com/tags/how-to-do/</loc><lastmod>2023-06-25T09:37:41&#43;05:45</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://codematrice.com/transforming-ubuntu-to-the-next-level/</loc><lastmod>2023-06-25T09:37:41&#43;05:45</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://codematrice.com/ubuntuwsl/</loc><lastmod>2023-06-19T18:25:08&#43;05:45</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://codematrice.com/tags/start-here/</loc><lastmod>2023-06-28T16:33:29&#43;05:45</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
+            <loc>https://codematrice.com/tags/start-here/</loc><lastmod>2023-06-28T16:33:29&#43;05:45</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
             <loc>https://codematrice.com/about/</loc><lastmod>2023-06-16T15:39:44&#43;05:45</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://codematrice.com/categories/blog/</loc><lastmod>2023-06-16T17:59:57&#43;05:45</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://codematrice.com/categories/project/</loc><lastmod>2023-06-16T17:59:57&#43;05:45</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>
