@@ -633,6 +633,6 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   # 
   home = ["HTML", "RSS", "JSON"]
   page = ["HTML", "MarkDown"]
-  section = ["HTML", "RSS"]
-  taxonomy = ["HTML", "RSS"]
+  section = ["HTML", "RSS", "JSON"]
+  taxonomy = ["HTML", "RSS", "JSON"]
   taxonomyTerm = ["HTML"]
