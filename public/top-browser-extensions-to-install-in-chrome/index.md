@@ -1,66 +1,5 @@
----
-title: "Top Browser Extensions to Install in Chrome"
-subtitle: "Top Browser Extensions to Install in Chrome"
-date: 2023-08-12T08:14:54+05:45
-lastmod: 
-draft: false 
-author: "Suyog Prasai"
-authorLink: ""
-description: "In this post, I will be talking about top browser extesions to install for better functionality and stability."
-license: "" 
+# Top Browser Extensions to Install in Chrome
 
-images: [
-		"featured.webp", 
-	]
-
-tags: ["Blog", "extensions"]
-categories: ["Blog"]
-
-featuredImage: "featured.webp"
-featuredImagePreview: ""
-
-hiddenFromHomePage: false
-hiddenFromSearch: false
-twemoji: false
-lightgallery: true
-ruby: true
-fraction: true
-fontawesome: true
-linkToMarkdown: false
-rssFullText: false
-
-toc:
-  enable: true
-  auto: true
-code:
-  copy: true
-  maxShownLines: 50
-math:
-  enable: false
-  # ...
-mapbox:
-  # ...
-share:
-  enable: true
-  # ...
-comment:
-  enable: true
-  # ...
-library:
-  css:
-    # someCSS = "some.css"
-    # located in "assets/"
-    # Or
-    # someCSS = "https://cdn.example.com/some.css"
-  js:
-    # someJS = "some.js"
-    # located in "assets/"
-    # Or
-    # someJS = "https://cdn.example.com/some.js"
-seo:
-  images: ["featured.webp"]
-  # ...
----
 ## 🚀 Top 7 Extensions to Supercharge Your Web Browsing 🌐
 
 Browser extensions are one of the most important pieces of software that you can install on your computer for better functionality and stability. They are like power-ups for your web browser, adding extra features and capabilities that cater to your specific needs. In this blog, I will be discussing the top browser extensions that can significantly enhance your web browsing experience. If you have different opinions or recommendations, please feel free to share them in the comments below.
@@ -101,4 +40,5 @@ Browser extensions are one of the most important pieces of software that you can
 - **Enhanced Communication:** Whether crafting emails, writing documents, or composing social media posts, Grammarly's suggestions and corrections elevate your written communication.
 
 Each of these browser extensions contributes a unique layer of functionality, security, and organization to your web browsing experience. You can mix and match these extensions based on your specific needs, enhancing your productivity and enjoyment while navigating the online world.
+
 
