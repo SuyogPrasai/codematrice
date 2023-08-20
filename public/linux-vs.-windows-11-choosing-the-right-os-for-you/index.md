@@ -1,63 +1,5 @@
----
-title: "Linux vs. Windows 11: Choosing the Right OS for You"
-subtitle: "Linux vs. Windows 11: Choosing the Right OS for You"
-date: 2023-08-20T11:50:17+05:45
-lastmod: 
-draft: False 
-author: "Suyog Prasai"
-authorLink: ""
-description: "In this blog post, I will be helping you choose the best operating system for you."
-license: ""
-images: ["ubuntu.jpg", "windows11.jpg"]
+# Linux vs. Windows 11: Choosing the Right OS for You
 
-tags: ["blog", "windows", "linux"]
-categories: ["blog"]
-
-featuredImage: "featured.jpg"
-featuredImagePreview: ""
-
-hiddenFromHomePage: false
-hiddenFromSearch: false
-twemoji: false
-lightgallery: true
-ruby: true
-fraction: true
-fontawesome: true
-linkToMarkdown: false
-rssFullText: false
-
-toc:
-  enable: true
-  auto: true
-code:
-  copy: true
-  maxShownLines: 50
-math:
-  enable: false
-  # ...
-mapbox:
-  # ...
-share:
-  enable: true
-  # ...
-comment:
-  enable: true
-  # ...
-library:
-  css:
-    # someCSS = "some.css"
-    # located in "assets/"
-    # Or
-    # someCSS = "https://cdn.example.com/some.css"
-  js:
-    # someJS = "some.js"
-    # located in "assets/"
-    # Or
-    # someJS = "https://cdn.example.com/some.js"
-seo:
-  images: ["featured.jpg"]
-  # ...
----
 
 The operating system we choose plays a pivotal role in shaping our digital journey. From the modern and user friendly interface of Windows, to the technical prowess of Linux,our choice can significantly impact our computing experience. While Windows is good for its friendly design and intuitive interations, Linux beckons to the technically inclined with its command-line-capabilites and open-source-foundations. Each system comes with its own array of advantages and trade-offs, inviting us to explore our needs and preferances before making the ultimate decision. In this blog, we'll delve into the world of Linux and Windows, disecting their fetures and functionalities to assist you in finding the perfect OS match your requirements.
 <!--more-->
@@ -145,5 +87,6 @@ In the dynamic world of operating systems, the choice between Linux and Windows 
 Ultimately, whether you're captivated by the sleek charms of Windows 11 or drawn to the limitless possibilities of Linux, the adventure lies in exploring, experimenting, and discovering the perfect digital companion that elevates your computing experience.
 
 Thank you for joining us on this exploration of Linux and Windows 11. We hope this comparison has shed light on the diverse worlds these operating systems offer. Feel free to share your thoughts and experiences in the comments below—we'd love to hear from you!
+
 
 

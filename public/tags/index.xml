@@ -4,12 +4,28 @@
         <link>https://codematrice.com/tags/</link>
         <description>Tags - Tag - CodeMatrice</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>suyog224356@gmail.com (Suyog Prasai)</managingEditor>
-            <webMaster>suyog224356@gmail.com (Suyog Prasai)</webMaster><lastBuildDate>Sat, 12 Aug 2023 08:14:54 &#43;0545</lastBuildDate><atom:link href="https://codematrice.com/tags/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>suyog224356@gmail.com (Suyog Prasai)</webMaster><lastBuildDate>Sun, 20 Aug 2023 11:50:17 &#43;0545</lastBuildDate><atom:link href="https://codematrice.com/tags/" rel="self" type="application/rss+xml" /><item>
     <title>Blog</title>
     <link>https://codematrice.com/tags/blog/</link>
-    <pubDate>Sat, 12 Aug 2023 08:14:54 &#43;0545</pubDate>
+    <pubDate>Sun, 20 Aug 2023 11:50:17 &#43;0545</pubDate>
     <author>Suyog Prasai</author>
     <guid>https://codematrice.com/tags/blog/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>linux</title>
+    <link>https://codematrice.com/tags/linux/</link>
+    <pubDate>Sun, 20 Aug 2023 11:50:17 &#43;0545</pubDate>
+    <author>Suyog Prasai</author>
+    <guid>https://codematrice.com/tags/linux/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>windows</title>
+    <link>https://codematrice.com/tags/windows/</link>
+    <pubDate>Sun, 20 Aug 2023 11:50:17 &#43;0545</pubDate>
+    <author>Suyog Prasai</author>
+    <guid>https://codematrice.com/tags/windows/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
@@ -34,22 +50,6 @@
     <pubDate>Tue, 25 Jul 2023 14:23:58 &#43;0545</pubDate>
     <author>Suyog Prasai</author>
     <guid>https://codematrice.com/tags/applications/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>windows</title>
-    <link>https://codematrice.com/tags/windows/</link>
-    <pubDate>Tue, 25 Jul 2023 14:23:58 &#43;0545</pubDate>
-    <author>Suyog Prasai</author>
-    <guid>https://codematrice.com/tags/windows/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Linux</title>
-    <link>https://codematrice.com/tags/linux/</link>
-    <pubDate>Thu, 20 Jul 2023 14:19:36 &#43;0545</pubDate>
-    <author>Suyog Prasai</author>
-    <guid>https://codematrice.com/tags/linux/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
