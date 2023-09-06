@@ -1,63 +1,5 @@
----
-title: "Windows 11 Applications: Weighing the Pros and Cons of Your Choices"
-subtitle: "Windows 11 Applications: Weighing the Pros and Cons of Your Choices"
-date: 2023-09-06T17:35:31+05:45
-lastmod: 
-draft: false 
-author: "Suyog Prasai"
-authorLink: ""
-description: "Applications are the most important pieces of software that one can have in one's windows computer. In this post I'll be talking about all the pros and cons of choosing applicaitons in your computer."
-license: ""
-images: []
+# Windows 11 Applications: Weighing the Pros and Cons of Your Choices
 
-tags: ["blog", "windows"]
-categories: ["blog"]
-
-featuredImage: "featured-image.webp"
-featuredImagePreview: ""
-
-hiddenFromHomePage: false
-hiddenFromSearch: false
-twemoji: false
-lightgallery: true
-ruby: true
-fraction: true
-fontawesome: true
-linkToMarkdown: false
-rssFullText: false
-
-toc:
-  enable: true
-  auto: true
-code:
-  copy: true
-  maxShownLines: 50
-math:
-  enable: false
-  # ...
-mapbox:
-  # ...
-share:
-  enable: true
-  # ...
-comment:
-  enable: true
-  # ...
-library:
-  css:
-    # someCSS = "some.css"
-    # located in "assets/"
-    # Or
-    # someCSS = "https://cdn.example.com/some.css"
-  js:
-    # someJS = "some.js"
-    # located in "assets/"
-    # Or
-    # someJS = "https://cdn.example.com/some.js"
-seo:
-  images: []
-  # ...
----
 
 <!--more-->
 
@@ -82,4 +24,5 @@ In the exciting world of computers, the applications you choose to operate your 
 
 ### Conclusion
 In the dynamic ecosystem of Windows, selecting the right applications for your work is essential. Your decisions significantly impact how you work with computers and are a major factor in your productivity. Consider factors such as performance, compatibility, privacy policy, updates, support, and the cost of the application before making a choice. Remember, the decision you make is of vital importance, so take your time when choosing your applications to make the most out of your computer.
+
 
