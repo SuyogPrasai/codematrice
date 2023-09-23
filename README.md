@@ -9,8 +9,6 @@ This is my personal website. It serves as a platform for showcasing my work, pro
 ## License 📝
 This project is licensed under the MIT License - see the LICENSE file for details.
 
----
-
 Thank you for visiting Codematrice.! If you have any questions or suggestions, please don't hesitate to get in touch. Enjoy exploring the website and its content.
 
 
