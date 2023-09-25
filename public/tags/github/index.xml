@@ -1,0 +1,18 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Github - Tag - CodeMatrice</title>
+        <link>https://codematrice.com/tags/github/</link>
+        <description>Github - Tag - CodeMatrice</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>suyog224356@gmail.com (Suyog Prasai)</managingEditor>
+            <webMaster>suyog224356@gmail.com (Suyog Prasai)</webMaster><lastBuildDate>Mon, 25 Sep 2023 16:48:06 &#43;0545</lastBuildDate><atom:link href="https://codematrice.com/tags/github/" rel="self" type="application/rss+xml" /><item>
+    <title>Open Source Contributions in Github</title>
+    <link>https://codematrice.com/open-source-contributions-in-github/</link>
+    <pubDate>Mon, 25 Sep 2023 16:48:06 &#43;0545</pubDate>
+    <author>Suyog Prasai</author>
+    <guid>https://codematrice.com/open-source-contributions-in-github/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/featured.webp" referrerpolicy="no-referrer">
+            </div>🌟 GitHub: Your Path to Open Source Contribution 🌟 GitHub, one of the most crucial platforms for us programmers, plays a vital role in today&rsquo;s tech landscape. It&rsquo;s increasingly important to familiarize ourselves with it, as contributing to online projects not only enriches your portfolio but also sharpens your programming prowess. In fact, companies often inquire about your contribution experience, making your GitHub profile a potential window to opportunities. 🚀]]></description>
+</item>
+</channel>
+</rss>

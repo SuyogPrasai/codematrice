@@ -1,63 +1,5 @@
----
-title: "Open Source Contributions in Github"
-subtitle: "Open Source Contributions in Github"
-date: 2023-09-25T16:48:06+05:45
-lastmod: 
-draft: false 
-author: "Suyog Prasai"
-authorLink: ""
-description: "In this blog, I will be talking about how you can contribute to open source projects in Github."
-license: "MIT"
-images: []
+# Open Source Contributions in Github
 
-tags: ["Blog", "Github"]
-categories: ["Blog"]
-
-featuredImage: "featured.webp"
-featuredImagePreview: ""
-
-hiddenFromHomePage: false
-hiddenFromSearch: false
-twemoji: false
-lightgallery: true
-ruby: true
-fraction: true
-fontawesome: true
-linkToMarkdown: false
-rssFullText: false
-
-toc:
-  enable: true
-  auto: true
-code:
-  copy: true
-  maxShownLines: 50
-math:
-  enable: false
-  # ...
-mapbox:
-  # ...
-share:
-  enable: true
-  # ...
-comment:
-  enable: true
-  # ...
-library:
-  css:
-    # someCSS = "some.css"
-    # located in "assets/"
-    # Or
-    # someCSS = "https://cdn.example.com/some.css"
-  js:
-    # someJS = "some.js"
-    # located in "assets/"
-    # Or
-    # someJS = "https://cdn.example.com/some.js"
-seo:
-  images: ["featured.webp"]
-  # ...
----
 ## 🌟 **GitHub: Your Path to Open Source Contribution** 🌟
 
 GitHub, one of the most crucial platforms for us programmers, plays a vital role in today's tech landscape. It's increasingly important to familiarize ourselves with it, as contributing to online projects not only enriches your portfolio but also sharpens your programming prowess. In fact, companies often inquire about your contribution experience, making your GitHub profile a potential window to opportunities. 🚀
@@ -120,3 +62,4 @@ Fear not, you don't need to be a programming wizard to contribute to open-source
 - When your PR is accepted and merged, celebrate your contribution with the open source community. You're now an open source contributor! Consider further contributions to the same project or explore other interests. The more you give, the more you'll grow as a developer.
 
 - Remember, open source communities cherish contributions of all sizes. Over time, you might even become a project maintainer or contributor as trust builds within the community. 🌐🚀🤖
+
