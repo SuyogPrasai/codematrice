@@ -1,6 +1,5 @@
 # Importance of Scripting for Programmers
 
-# Scripting: Because Typing the Same Stuff 1000 Times is 1000 Times Too Many
 Hello there, fellow code wranglers! Have you ever found yourself mired in a sea of repetitive, mind-numbing tasks, drowning in the tedium of everyday programming life? Fear not, for the superhero of the coding world is here to rescue you. Enter the world of scripting!
 
 ### Automation: Making Developers Feel Lazy (in a Good Way)
