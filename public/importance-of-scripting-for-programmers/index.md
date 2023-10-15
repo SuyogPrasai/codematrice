@@ -1,63 +1,5 @@
----
-title: "Importance of Scripting for Programmers"
-subtitle: "Importance of Scripting for Programmers"
-date: 2023-10-15T17:45:18+05:45
-lastmod: 
-draft: false 
-author: "Suyog Prasai"
-authorLink: ""
-description: "In this post, I will be talking about the importance of scripting for programmers."
-license: "MIT"
-images: ['featured.jpg']
+# Importance of Scripting for Programmers
 
-tags: ["blog", "programming"]
-categories: ["blog"]
-
-featuredImage: "featured.jpg"
-featuredImagePreview: ""
-
-hiddenFromHomePage: false
-hiddenFromSearch: false
-twemoji: false
-lightgallery: true
-ruby: true
-fraction: true
-fontawesome: true
-linkToMarkdown: false
-rssFullText: false
-
-toc:
-  enable: true
-  auto: true
-code:
-  copy: true
-  maxShownLines: 50
-math:
-  enable: false
-  # ...
-mapbox:
-  # ...
-share:
-  enable: true
-  # ...
-comment:
-  enable: true
-  # ...
-library:
-  css:
-    # someCSS = "some.css"
-    # located in "assets/"
-    # Or
-    # someCSS = "https://cdn.example.com/some.css"
-  js:
-    # someJS = "some.js"
-    # located in "assets/"
-    # Or
-    # someJS = "https://cdn.example.com/some.js"
-seo:
-  images: []
-  # ...
----
 # Scripting: Because Typing the Same Stuff 1000 Times is 1000 Times Too Many
 Hello there, fellow code wranglers! Have you ever found yourself mired in a sea of repetitive, mind-numbing tasks, drowning in the tedium of everyday programming life? Fear not, for the superhero of the coding world is here to rescue you. Enter the world of scripting!
 
@@ -92,5 +34,6 @@ In the world of DevOps and system administration, scripting is the real superher
 When it comes to data analysis and machine learning, scripting languages like Python and R are your trusty sidekicks. They bring the power of data manipulation and number-crunching to your fingertips, turning you into a data superhero.
 
 So, my fellow code adventurers, embrace the magic of scripting. It's your secret weapon against the forces of repetitive tasks, inefficiency, and boredom in the world of programming. Whether you're a web developer, data scientist, sysadmin, or code enthusiast, scripting is your ultimate ally in the never-ending quest for code mastery. Happy coding and scripting, you magnificent code sorcerer!
+
 
 
