@@ -4,7 +4,18 @@
         <link>https://codematrice.com/tags/programming/</link>
         <description>programming - Tag - CodeMatrice</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>suyog224356@gmail.com (Suyog Prasai)</managingEditor>
-            <webMaster>suyog224356@gmail.com (Suyog Prasai)</webMaster><lastBuildDate>Sun, 15 Oct 2023 17:45:18 &#43;0545</lastBuildDate><atom:link href="https://codematrice.com/tags/programming/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>suyog224356@gmail.com (Suyog Prasai)</webMaster><lastBuildDate>Mon, 04 Dec 2023 16:54:39 &#43;0545</lastBuildDate><atom:link href="https://codematrice.com/tags/programming/" rel="self" type="application/rss+xml" /><item>
+    <title>Naming conventions of variables in programming</title>
+    <link>https://codematrice.com/naming-conventions-of-variables-in-programming/</link>
+    <pubDate>Mon, 04 Dec 2023 16:54:39 &#43;0545</pubDate>
+    <author>Suyog Prasai</author>
+    <guid>https://codematrice.com/naming-conventions-of-variables-in-programming/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/cover.webp" referrerpolicy="no-referrer">
+            </div><h2 id="naming-conventions">Naming Conventions</h2>
+<p>Naming conventions refer to the <strong>guidelines</strong> that we as programmers follow to name various identifiers like <strong>variables</strong>, <strong>functions</strong>, <strong>class</strong>, etc. This is particularly useful when we need to find a specific thing (e.g., variable, function, or even files). This makes us more productive as programmers and helps us to identify what is what.</p>]]></description>
+</item>
+<item>
     <title>Importance of Scripting for Programmers</title>
     <link>https://codematrice.com/importance-of-scripting-for-programmers/</link>
     <pubDate>Sun, 15 Oct 2023 17:45:18 &#43;0545</pubDate>

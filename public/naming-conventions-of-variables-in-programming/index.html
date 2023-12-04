@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Naming conventions of variables in programming - CodeMatrice</title><meta name="Description" content="In this post, I will be talking about the various naming conventions that we use to name variables, classes, functions, etc. I hope that this is particularly useful to those who are new in this."><meta property="og:title" content="Naming conventions of variables in programming" />
+<meta property="og:description" content="In this post, I will be talking about the various naming conventions that we use to name variables, classes, functions, etc. I hope that this is particularly useful to those who are new in this." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://codematrice.com/naming-conventions-of-variables-in-programming/" /><meta property="og:image" content="https://codematrice.com/naming-conventions-of-variables-in-programming/cover.webp"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-12-04T16:54:39+05:45" />
+<meta property="article:modified_time" content="2023-12-04T16:54:39+05:45" /><meta property="og:site_name" content="CodeMatrice" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://codematrice.com/naming-conventions-of-variables-in-programming/cover.webp"/>
+<meta name="twitter:title" content="Naming conventions of variables in programming"/>
+<meta name="twitter:description" content="In this post, I will be talking about the various naming conventions that we use to name variables, classes, functions, etc. I hope that this is particularly useful to those who are new in this."/>
+<meta name="application-name" content="Code Matrice">
+<meta name="apple-mobile-web-app-title" content="Code Matrice"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://codematrice.com/naming-conventions-of-variables-in-programming/" /><link rel="prev" href="https://codematrice.com/importance-of-scripting-for-programmers/" /><link rel="next" href="https://codematrice.com/hello-world/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><meta name="google-site-verification" content="googlec6b1960c8815b97b.html" /><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Naming conventions of variables in programming",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/codematrice.com\/naming-conventions-of-variables-in-programming\/"
+        },"genre": "posts","keywords": "blog, programming","wordcount":  769 ,
+        "url": "https:\/\/codematrice.com\/naming-conventions-of-variables-in-programming\/","datePublished": "2023-12-04T16:54:39+05:45","dateModified": "2023-12-04T16:54:39+05:45","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Suyog Prasai"
+            },"description": "In this post, I will be talking about the various naming conventions that we use to name variables, classes, functions, etc. I hope that this is particularly useful to those who are new in this."
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="CodeMatrice"><span class="header-title-pre"><i class="fa-solid fa-code"></i></span>CodeMatrice</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><a class="menu-item" href="/about/"> About </a><a class="menu-item" href="https://github.com/suyogprasai" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw' aria-hidden='true'></i>  </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="CodeMatrice"><span class="header-title-pre"><i class="fa-solid fa-code"></i></span>CodeMatrice</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a class="menu-item" href="/about/" title="">About</a><a class="menu-item" href="https://github.com/suyogprasai" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw' aria-hidden='true'></i></a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Naming conventions of variables in programming</h1><h2 class="single-subtitle">Naming conventions of variables in programming</h2><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Suyog Prasai</a></span>&nbsp;<span class="post-category">included in <a href="/categories/blog/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Blog</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-12-04">2023-12-04</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;769 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;4 minutes&nbsp;</div>
+        </div><div class="featured-image"><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/naming-conventions-of-variables-in-programming/cover.webp"
+        data-srcset="/naming-conventions-of-variables-in-programming/cover.webp, /naming-conventions-of-variables-in-programming/cover.webp 1.5x, /naming-conventions-of-variables-in-programming/cover.webp 2x"
+        data-sizes="auto"
+        alt="/naming-conventions-of-variables-in-programming/cover.webp"
+        title="In this post, I will be talking about the various naming conventions that we use to name variables, classes, functions, etc. I hope that this is particularly useful to those who are new in this." width="1280" height="720" /></div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#naming-conventions">Naming Conventions</a>
+      <ul>
+        <li><a href="#why-do-we-need-them">Why do we need them?</a></li>
+        <li><a href="#naming-conventions-across-programming">Naming Conventions across programming</a></li>
+      </ul>
+    </li>
+    <li><a href="#conclusion">Conclusion</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h2 id="naming-conventions">Naming Conventions</h2>
+<p>Naming conventions refer to the <strong>guidelines</strong> that we as programmers follow to name various identifiers like <strong>variables</strong>, <strong>functions</strong>, <strong>class</strong>, etc. This is particularly useful when we need to find a specific thing (e.g., variable, function, or even files). This makes us more productive as programmers and helps us to identify what is what.</p>
+<h3 id="why-do-we-need-them">Why do we need them?</h3>
+<p>As I said earlier, <strong>naming conventions</strong> are very useful and are a standard of professional developers. We, as developers, are constantly reading and writing code in our domain. This makes us encounter different types of code and logic. If we are able to identify what is what, then we can more easily comprehend the program. If we are able to do this, then it becomes very easy for us to add features, remove features, refactor code, and many more.</p>
+<div class="details admonition tip open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-lightbulb fa-fw" aria-hidden="true"></i>Some points to remember<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><ol>
+<li>Giving good names to identifiers makes it easy to find things.</li>
+<li>Which, in return, gives us more comprehension of the code and logic.</li>
+<li>This makes us more effective as programmers and greatly improves our skill.</li>
+<li>It also helps us to differentiate if something is to be accessible to the user and what is to be used within the function (abstraction).</li>
+</ol>
+</div>
+        </div>
+    </div>
+<h3 id="naming-conventions-across-programming">Naming Conventions across programming</h3>
+<p>Now that we understand why naming conventions are important in our field, we can dive into the various <em>naming conventions</em> that are actually used.</p>
+<p>These are different case notations that you will come across while programming. It is better to remember them all (it is quite useful).</p>
+<ol>
+<li>
+<p><strong>Camel Case:</strong></p>
+<ul>
+<li>Example: <code>camelCaseVariable</code></li>
+<li>In camel case, the first letter of each word is capitalized except for the first word.</li>
+</ul>
+</li>
+<li>
+<p><strong>Pascal Case (or Upper Camel Case):</strong></p>
+<ul>
+<li>Example: <code>PascalCaseVariable</code></li>
+<li>Similar to camel case, but the first letter of the first word is also capitalized.</li>
+</ul>
+</li>
+<li>
+<p><strong>Snake Case:</strong></p>
+<ul>
+<li>Example: <code>snake_case_variable</code></li>
+<li>Words are separated by underscores, and all letters are usually lowercase.</li>
+</ul>
+</li>
+<li>
+<p><strong>Kebab Case (or Dash Case):</strong></p>
+<ul>
+<li>Example: <code>kebab-case-variable</code></li>
+<li>Words are separated by hyphens, and all letters are usually lowercase.</li>
+</ul>
+</li>
+</ol>
+<p>Now that you know about the various case notations, I can show you what you should do to define an identifier (at least a general guideline).</p>
+<ol>
+<li>
+<p><strong>Be descriptive about your identifiers:</strong></p>
+<ul>
+<li>You should be descriptive about your identifiers which gives you info on what is what and what does what. This is a general rule of thumb. For example, &ldquo;backgroundSetter&rdquo; can be a name of a function that sets the background of your desktop. Similarly, you should try to use names that actually describe what the function does.</li>
+</ul>
+</li>
+<li>
+<p><strong>Use camel case or snake case:</strong></p>
+<ul>
+<li>For variable and function use either camel case or snake case. I generally use snake case for variable names and camel case for variables. That is my style, but you can be free to choose whether to use camel or snake case.</li>
+</ul>
+</li>
+<li>
+<p><strong>Avoid Single-letter names:</strong></p>
+<ul>
+<li>It is often tempting to use single-letter names to define variables such as counters in a loop, but in production code, that is rarely seen. This is because when the codebase gets bigger and bigger, it becomes increasingly difficult for us to debug code and understand it better. So, try to avoid this pattern.</li>
+</ul>
+</li>
+<li>
+<p><strong>Consistency is Key:</strong></p>
+<ul>
+<li>Maintain a consistent naming style throughout your codebase. If you start with a particular convention, stick to it.</li>
+</ul>
+</li>
+<li>
+<p><strong>Consider the Scope:</strong></p>
+<ul>
+<li>Use longer and more descriptive names for variables with larger scopes (e.g., class-level variables) and shorter names for local variables.</li>
+</ul>
+</li>
+<li>
+<p><strong>Follow Language Conventions:</strong></p>
+<ul>
+<li>Adhere to the naming conventions established by the programming language you&rsquo;re using.</li>
+</ul>
+</li>
+<li>
+<p><strong>Use Verb-Noun Naming for Functions:</strong></p>
+<ul>
+<li>Choose function names that indicate actions. For example, calculateTotal, getUserData.</li>
+</ul>
+</li>
+<li>
+<p><strong>Think about the Future:</strong></p>
+<ul>
+<li>Consider how maintainable your code will be in the future. Choose names that will still make sense as the code evolves.</li>
+</ul>
+</li>
+<li>
+<p><strong>Review and Refactor:</strong></p>
+<ul>
+<li>Regularly review your code and refactor names if needed. As your understanding of the code improves, you may find better names.</li>
+</ul>
+</li>
+<li>
+<p><strong>Documentation:</strong></p>
+<ul>
+<li>If an identifier&rsquo;s purpose is not immediately clear from its name, consider adding comments or documentation to explain its role.</li>
+</ul>
+</li>
+</ol>
+<h2 id="conclusion">Conclusion</h2>
+<p>In essence, naming conventions are the unsung heroes of clean and maintainable code. By adhering to well-established guidelines such as Camel Case or Snake Case, developers create a shared vocabulary that enhances code readability and collaboration. Thoughtful and descriptive identifiers serve as beacons, guiding programmers through the logic of a program and facilitating seamless code maintenance. Consistency in naming not only streamlines individual projects but also fosters a universal language in the programming community. Embracing these conventions is akin to investing in the longevity and clarity of code, ultimately contributing to more efficient development and a collective pursuit of code quality.</p></div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2023-12-04</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://codematrice.com/naming-conventions-of-variables-in-programming/" data-title="Naming conventions of variables in programming" data-via="@suyog_prasai" data-hashtags="blog,programming"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://codematrice.com/naming-conventions-of-variables-in-programming/" data-hashtag="blog"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="https://codematrice.com/naming-conventions-of-variables-in-programming/" data-title="Naming conventions of variables in programming"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Reddit" data-sharer="reddit" data-url="https://codematrice.com/naming-conventions-of-variables-in-programming/"><i class="fab fa-reddit fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="https://codematrice.com/naming-conventions-of-variables-in-programming/" data-title="Naming conventions of variables in programming"><i data-svg-src="/lib/simple-icons/icons/line.min.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://codematrice.com/naming-conventions-of-variables-in-programming/" data-title="Naming conventions of variables in programming" data-image="cover.webp"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/blog/">Blog</a>,&nbsp;<a href="/tags/programming/">programming</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/importance-of-scripting-for-programmers/" class="prev" rel="prev" title="Importance of Scripting for Programmers"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Importance of Scripting for Programmers</a>
+            <a href="/hello-world/" class="next" rel="next" title=" Hello World: Introducing Code Matrice and the Exciting World of Coding"> Hello World: Introducing Code Matrice and the Exciting World of Coding<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+</div>
+<div id="comments"><div id="utterances" class="comment"></div><noscript>
+                Please enable JavaScript to view the comments powered by <a href="https://utteranc.es/">utterances</a>.
+            </noscript></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">Suyog Prasai</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/lightgallery/css/lightgallery-bundle.min.css"><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/algoliasearch/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lightgallery.min.js"></script><script type="text/javascript" src="/lib/lightgallery/plugins/thumbnail/lg-thumbnail.min.js"></script><script type="text/javascript" src="/lib/lightgallery/plugins/zoom/lg-zoom.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/cookieconsent/cookieconsent.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{"utterances":{"darkTheme":"github-dark","issueTerm":"pathname","label":"","lightTheme":"github-light","repo":"suyogprasai/codematrice"}},"cookieconsent":{"content":{"dismiss":"Got it!","link":"Learn more","message":"This website uses Cookies to improve your experience."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"lightgallery":true,"search":{"algoliaAppID":"EOEXCVYQPY","algoliaIndex":"CodeMatriceSearch","algoliaSearchKey":"dd95774775a6bbdb8bc51846c97fec1c","highlightTag":"em","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"algolia"}};</script><script type="text/javascript" src="/js/theme.min.js"></script><script type="text/javascript">
+            window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
+            gtag('config', 'G-TRQMY7Z92P', { 'anonymize_ip': true });
+        </script><script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=G-TRQMY7Z92P" async></script></body>
+</html>
