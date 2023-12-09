@@ -1,63 +1,5 @@
----
-title: "The Paradigm of Object Oriented Programming"
-subtitle: "The Paradigm of Object Oriented Programming"
-date: 2023-12-08T17:58:59+05:45
-lastmod: 
-draft: false 
-author: "Suyog Prasai"
-authorLink: ""
-description: "This is a general introduction to Object Oriented Programming."
-license: ""
-images: []
+# The Paradigm of Object Oriented Programming
 
-tags: ["blog", "programming"]
-categories: ["blog"]
-
-featuredImage: "cover.webp"
-featuredImagePreview: ""
-
-hiddenFromHomePage: false
-hiddenFromSearch: false
-twemoji: false
-lightgallery: true
-ruby: true
-fraction: true
-fontawesome: true
-linkToMarkdown: false
-rssFullText: false
-
-toc:
-  enable: true
-  auto: true
-code:
-  copy: true
-  maxShownLines: 50
-math:
-  enable: false
-  # ...
-mapbox:
-  # ...
-share:
-  enable: true
-  # ...
-comment:
-  enable: true
-  # ...
-library:
-  css:
-    # someCSS = "some.css"
-    # located in "assets/"
-    # Or
-    # someCSS = "https://cdn.example.com/some.css"
-  js:
-    # someJS = "some.js"
-    # located in "assets/"
-    # Or
-    # someJS = "https://cdn.example.com/some.js"
-seo:
-  images: []
-  # ...
----
  According to the standard definition of Object-Oriented Programming (OOP), it is categorized as a **Programming Paradigm**. This term refers to the fundamental style or approach to programming that delineates the structure by which you express your ideas in code.
 
 
@@ -110,3 +52,4 @@ Object Oriented Programming is built on various pillars that make it you first c
 ### Conclusion
 
 **Object Oriented Programming (OOP)** is a way of writing a program that allows us to be more effcient with out code and which keeps the logic of the program straight to the point. It is a **requirement** for developers who want to jump to the intermediate phase of their programming journey. This allows them to sharpen their craft and easily give life to their ideas. OOP is an asset that you might wanna have in your arsenal.
+
